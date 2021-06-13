@@ -1,0 +1,2695 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi","Is anyone there?","Hello","Good day", "I`m fine","How are you","How`s it going"],
+      "responses": ["Hello, thanks for visiting","Good to see you again","Hi there, how can I help you?","I`m good, What about you?","All good hea, How are you?","I`m fine, How`s it going?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+            "tag":"hours",
+            "patterns": ["What hours are you open?","What are your hours?","When are you open?"],
+            "responses": ["We're open every day 9am-9pm","Our hours are 9am-9pm every day"]
+    },
+    {
+            "tag":"location",
+            "patterns": ["What is your location?","Where are you located?","What is your Address?"],
+            "responses": ["We are on Guwahati","Our Address are Guwahati, Khanapara, Tezpur, Jorhat, Majuli, Kokrajhar, Silchar and Dibrugarhr Extension Centre "]
+    },
+    {
+            "tag":"age",
+            "patterns": ["age?","how old are you?","what is your age?","how old is yumnam_jr"],
+            "responses": ["My owner Tarunjit Yumanm is 24 years old","24 years old"]
+    },
+    {
+            "tag":"name",
+            "patterns": ["name?","what is your name?","whats your name?","who are you?","are you yumnam_jr"],
+            "responses": ["You can call me Yumnam_jr","Yes, my name is Yumnam_jr","I am YUmnam_jr!","I am Yumnam_jr the assistant of Tarunjit Yumnam"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+        {
+            "tag": "query1",
+            "patterns": ["HEAD OF THE INSTITUTION","What is the name of head of the institution","What is the name of head of nielit Guwahati"],
+            "responses": ["Dr. Y Jayanta Singh"]
+        },
+        {
+            "tag": "query2",
+            "patterns": ["DIRECTOR GUWAHATI","Who is the director of NIELIT guwahati","who is the director Guwahati","Who is the head of NIELIT Guwahati"],
+            "responses": ["Prof. (Dr.) Yumnam Jayanta Singh, Director\t0361-2730269 / 2731940"]
+        },
+        {
+            "tag": "query3",
+            "patterns": ["What are the objectives of NIELIT"],
+            "responses": ["The Objectives with which the Centre is functioning are:\n\n1.       To bring an innovative, entrepreneurial spirit along with excellence in teaching, learning and research to develop leaders in IT and Electronics.\n\n2.       To generate and keep update Industry-ready quality professionals with knowledge-based skill set in IECT and allied fields through formal and informal education system.\n\n3.       To establish a Quality system of examination and certification that is globally recognized and provides a fair assessment of the competency of students\n\n4.       To maintain close links with Industries, R&D and Academic Institutions to promote electronics, IT and industrial design culture\n\n5.       To develop entrepreneurs, experts and designers, carry out R&D and provide Industrial Consultancy in IECT\n\n6.       To offer e-Training in Electronics, Information Technology and Industrial Design methodology and production technique"]
+        },
+        {
+            "tag": "query4",
+            "patterns": ["AUTONOMY TOPPER LIST"],
+            "responses": ["No results found"]
+        },
+        {
+            "tag": "query5",
+            "patterns": ["DOCUMENTS ISSUED COE STUDENT PASSES AUTONOMY EXAMS"],
+            "responses": ["No results found"]
+        },
+        {
+            "tag": "query6",
+            "patterns": ["FORMAT WRITING APPLICATION COE"],
+            "responses": ["No results found"]
+        },
+        {
+            "tag": "query7",
+            "patterns": ["EXAMINATION COMMITTEE"],
+            "responses": ["Related to Exam Query (O/A/B/C)    exam@nielit.gov.in  Related to Exam Query ( CCC)        ccc@nielit.gov.in "]
+        },
+        {
+            "tag": "query8",
+            "patterns": ["LINK RESULTS TIMETABLES"],
+            "responses": ["No results found"]
+        },
+        {
+            "tag": "query9",
+            "patterns": ["EBC CONCESSION"],
+            "responses": ["No results found"]
+        },
+        {
+            "tag": "query10",
+            "patterns": ["PG COURSE RE REGISTRATION"],
+            "responses": ["Online PG Diploma in Embedded System Design, Online PG Diploma in Embedded System Design Course is intended to impart skills essential for the design and implementation of embedded systems using appropriate hardware and software tools. This course offers a range of topics of immediate relevance to industry and makes the participants exactly suitable for Embedded and IoT Industry"]
+        },
+        {
+            "tag": "query11",
+            "patterns": ["ASSISTANCE STUDENTS INTERNSHIPS PLACEMENT"],
+            "responses": ["available"]
+        },
+        {
+            "tag": "query12",
+            "patterns": ["ASSISTANCE INTERNSHIP PLACEMENT"],
+            "responses": ["https://beta.nielit.gov.in/guwahati/guwahati/guwahati/content/placement-1"]
+        },
+        {
+            "tag": "query13",
+            "patterns": ["INTERNSHIPS"],
+            "responses": ["https://nielit.gov.in/calicut/guwahati/content/placement-3"]
+        },
+        {
+            "tag": "query14",
+            "patterns": ["PLACEMENTS"],
+            "responses": ["https://beta.nielit.gov.in/guwahati/guwahati/guwahati/content/placement-1"]
+        },
+        {
+            "tag": "query15",
+            "patterns": ["Online internship programs"],
+            "responses": ["https://nielit.gov.in/calicut/guwahati/content/internship-industrial-training-programs"]
+        },
+        {
+            "tag": "query16",
+            "patterns": ["INTERNSHIP"],
+            "responses": ["The Centre offers a very comprehensive set of Industrial Training / Internship in almost all the areas of Electronics and IT. We offer internship in areas like Embedded Systems, VLSI, Power Electronics, Process Control and Instrumentation, CAD/ CAM and Information Technology. Special batches and custom training in these fields  can be organized on request. Please write to trng@calicut.nielit.in "]
+        },
+        {
+            "tag": "query17",
+            "patterns": ["PLACEMENT"],
+            "responses": ["https://beta.nielit.gov.in/guwahati/guwahati/guwahati/content/placement-1"]
+        },
+        {
+            "tag": "query18",
+            "patterns": ["FEES ACADEMIC YEAR 2020-2021"],
+            "responses": ["https://nielit.gov.in/content/fee-charter-3"]
+        },
+        {
+            "tag": "query19",
+            "patterns": ["FEES 2020-2021"],
+            "responses": ["https://beta.nielit.gov.in/guwahati/guwahati/guwahati/guwahati/content/revised-fee-structure-january2020"]
+        },
+        {
+            "tag": "query20",
+            "patterns": ["DOCTORAL PROGRAMME"],
+            "responses": ["NIELIT Centre Aurangabad is a recognized Research Centre of the Dr. B.A.M. University, Aurangabad (MS) for conducting research leading to Ph.D Degree in Engineering and Technology. The institute has the facility to pursue the research work in the fields of Electrical, Electronics, Instrumentation, Communication, Information Technology/Science, Computer Engineering/Science, etc. Interested candidates, meeting the eligibility criteria set by the Dr.B.A.M. University, Aurangabad or any other University/Deemed University proposed by the candidate, shall be allowed to propose this institute as Research Centre, subject to the Rules and Regulations of this institute, laid down for this purpose. The candidate shall register with the proposed University/Deemed University and complete all the formalities, laid down by the said University from time to time (Fee, Progress Report, Synopsis, Thesis, etc.), in addition to fulfilling the requirements of this institute."]
+        },
+        {
+            "tag": "query21",
+            "patterns": ["Application Form for NOC"],
+            "responses": ["https://nielit.gov.in/guwahati/content/doctoral-phd-programme-engineering-technology"]
+        },
+        {
+            "tag": "query22",
+            "patterns": ["Doctoral (Ph.D) Programme in Engineering & Technology Application Form for Admission"],
+            "responses": ["https://nielit.gov.in/guwahati/content/doctoral-phd-programme-engineering-technology"]
+        },
+        {
+            "tag": "query23",
+            "patterns": ["Doctoral (Ph.D) Programme in Engineering & Technology"],
+            "responses": ["https://nielit.gov.in/guwahati/content/doctoral-phd-programme-engineering-technology"]
+        },
+        {
+            "tag": "query24",
+            "patterns": ["Fee payment procedure/ Instructions for Ph.D"],
+            "responses": ["https://nielit.gov.in/guwahati/content/doctoral-phd-programme-engineering-technology"]
+        },
+        {
+            "tag": "query25",
+            "patterns": ["The Ph.D last date for payment of fees for the semester from July-20 to Dec-20 is till 31st August 2020"],
+            "responses": ["https://nielit.gov.in/guwahati/content/doctoral-phd-programme-engineering-technology"]
+        },
+        {
+            "tag": "query26",
+            "patterns": ["Procedure for admission at NIELIT Aurangabad for Ph.D"],
+            "responses": ["https://nielit.gov.in/guwahati/content/doctoral-phd-programme-engineering-technology"]
+        },
+        {
+            "tag": "query27",
+            "patterns": ["MTECH ELECTIVES SECOND SEMESTER"],
+            "responses": ["The second Dissertation(II) of C level course is introduced in the 4th revised syllabus. Every Candidate should do a Dissertation individually and no grouping is allowed. The Dissertation will be carried out under the guidance of the institute, if he/she is through the institute conducting an accredited course. The direct Candidate will do the Dissertation in an organization where he/she is working. In that case, he/she will carry out the Dissertation under the guidance of experts/professional from his organization. For more info visit the link https://nielit.gov.in/guwahati/content/c-level-second-dissertation-dissertation-%E2%80%93-ii"]
+        },
+        {
+            "tag": "query28",
+            "patterns": ["Guidelines for submission of Dissertation-II at 'C' Level"],
+            "responses": ["A Supervisor/Guide should be a person with NIELIT \u2018C\u2019 Level/ M.Tech. Equivalent/higher qualification and adequate experience (minimum 3 years) in the area in which the student has chosen the Dissertation. In the case of a Candidate from an Accredited Institute, the institute concerned will render all help including the nomination of the Supervisor. All help including the nomination of the supervisor/guide will be rendered by the institute concerned. In the case of a direct Candidate, the Candidate should ensure that the facilities are available in the organization (where the Dissertation is taken up) and also the same are extended to them. Dissertation report submission and presentation will be mandatory."]
+        },
+        {
+            "tag": "query29",
+            "patterns": ["FREESHIP SCHOLARSHIP EBC STATE MINORITIES"],
+            "responses": ["No results found"]
+        },
+        {
+            "tag": "query30",
+            "patterns": ["FREESHIP"],
+            "responses": ["No results found"]
+        },
+        {
+            "tag": "query31",
+            "patterns": ["SCHOLARSHIP "],
+            "responses": ["Protsahan Puraskar Scheme (erstwhile Scholarship Scheme) for SC/ST/Physically Handicapped and Female Students pursuing NIELIT (Formerly DOEACC Society):-\n\nO/A/B/C Level Courses w.e.f January, 2003 Examinations\n\nThe Society has introduced a Protsahan Puraskar Scheme (erstwhile Scholarship Scheme) for SC/ST/Physically handicapped and Female students pursuing NIELIT(DOEACC)  O/A/B/C Level Courses w.e.f. January,2003 Examinations.\n\nEligibility:-\n\nThe Protsahan Puraskar Scheme (erstwhile Scholarship Scheme) will be applicable for SC/ST/physically handicapped and Female candidates are pursuing O/A/B/C level Courses of the NIELIT (DOEACC) as a full time courses  through an institute authorized to conduct the DOEACC accredited courses.\nCandidates shall have to clear the papers in the first attempt and complete the courses in number of attempts given in subsequent paragraphs.\nIncome of the parents of the student from all sources shall not be more than rs 1 Lac p.a.\nSubmission of Application for Protsahan Puraskar (erstwhile Scholarship)\n\n  A candidate has to apply for the Scholarship along with the following:-\n\nProof of registration/op-gradation\nProof pf passing the examination of relevant  level\nProof of pursuing O/A/B/C level  as a full time courses\nProof of income. For more info please visit https://nielit.gov.in/content/scholarship"]
+        },
+        {
+            "tag": "query32",
+            "patterns": ["EBC"],
+            "responses": ["Your search yielded no results"]
+        },
+        {
+            "tag": "query33",
+            "patterns": ["STATE MINORITIES"],
+            "responses": ["Ms. VS Sheela, Director Delhi visited NIELIT Shimla Centre on 02nd may 2016 and inspected various activities running in center. She held a review meeting of NIELIT Shimla staff and gave her valuable guidance over training activities and other projects. A presentation on NIELIT activities and various projects being executed and in pipeline was given by Director Incharge NIELIT Shimla.\n\nShe also chaired a meeting of committee comprising of members from DIT, NIC, H.P. University, CDAC, team from Department of SC, OBC and Minorities. In the meeting, matter related to  revision of syllabus of PGDCA and DCA-DTP courses being run at Shimla Centre and associated centres across the State under Social Welfare Deptt Sponsored Programme for SC, ST and minority affairs was discussed for improvement keeping in view skill set of candidates and objective of improving the same through these courses to enhance their employability."]
+        },
+        {
+            "tag": "query34",
+            "patterns": ["MAXIMUM ATTEMPTS SEMESTER"],
+            "responses": ["Your search yielded no results"]
+        },
+        {
+            "tag": "query35",
+            "patterns": ["LIBRARY BOOK BANK SCHEME"],
+            "responses": ["Library Room: 01 (One) with 5440 nos of Books (990 Titles) in the Library."]
+        },
+        {
+            "tag": "query36",
+            "patterns": ["SCHOLARSHIP RENEWAL FRESH RENEWAL STUDENTS"],
+            "responses": ["Yes, we do have"]
+        },
+        {
+            "tag": "query37",
+            "patterns": ["SCHOLARSHIP RENEWAL"],
+            "responses": ["Yes, we do have. please visit https://nielit.gov.in/guwahati/content/scholarship"]
+        },
+        {
+            "tag": "query38",
+            "patterns": ["PERSON DISABILITY"],
+            "responses": ["No facility"]
+        },
+        {
+            "tag": "query39",
+            "patterns": ["DIRECTION GOVERNING FACILILTIES PERSONS DISABILITIES"],
+            "responses": ["No facilities"]
+        },
+        {
+            "tag": "query40",
+            "patterns": ["TWO-WHEELERS DRIVING LICENSE HELMET"],
+            "responses": ["No"]
+        },
+        {
+            "tag": "query41",
+            "patterns": ["DRIVING LICENSE"],
+            "responses": ["No"]
+        },
+        {
+            "tag": "query42",
+            "patterns": ["HELMET"],
+            "responses": ["No"]
+        },
+        {
+            "tag": "query43",
+            "patterns": ["UGC ANTI RAGGING REGULATION"],
+            "responses": ["Anti ragging, Ragging is a Criminal and Non-Bailable offence, punished by dismissal from the Institute, fine of Rs 10,000/- and imprisonment upto two years."]
+        },
+        {
+            "tag": "query44",
+            "patterns": ["CURBING MENACE RAGGING"],
+            "responses": [" https://beta.nielit.gov.in/chennai/aurangabad/guwahati/content/anti-ragging-squad-committee-0"]
+        },
+        {
+            "tag": "query45",
+            "patterns": ["RAGGING"],
+            "responses": ["Anti ragging, Ragging is a Criminal and Non-Bailable offence, punished by dismissal from the Institute, fine of Rs 10,000/- and imprisonment upto two years.\n\nAnti- Ragging & Squad Committee\n\na) Shri Ripunjay Dinanath Singh, Chairman\nb) Shri Sanjeev Kumar Jha, Member\nc) Shri Ishant Kumar Bajpai, Member\nd) Shri NN Ramachandran\ne) Shri Munivel E, Member Secretary"]
+        },
+        {
+            "tag": "query46",
+            "patterns": ["UNDERTAKING DEAN ADMISSIONS"],
+            "responses": ["No results found"]
+        },
+        {
+            "tag": "query47",
+            "patterns": ["DEAN ADMISSIONS"],
+            "responses": ["Your search yielded no results"]
+        },
+        {
+            "tag": "query48",
+            "patterns": ["NRI"],
+            "responses": ["Three seats are reserved for Non-Resident Indian (NRI) in M.Tech in Electronics Design and Technology(Full Time Course), Diploma in Electronics Production & Maintenance (DEPM) and M.tech Programme as well"]
+        },
+        {
+            "tag": "query49",
+            "patterns": ["FIRST YEAR BE ADMISSIONS"],
+            "responses": ["https://beta.nielit.gov.in/chennai/aurangabad/guwahati/content/training-calendar-run-nielit-aurangabad-centre-year-2019"]
+        },
+        {
+            "tag": "query50",
+            "patterns": ["ELIGIBILITY ADMISSION FIRST YEAR BE"],
+            "responses": ["Eligibility\n\nBE/B.Tech/MCA/M.Sc/DOEACC B Level with Knowledge of Statistics and Computer Programming.\nCandidates who have appeared in the final semester examination and awaiting results may also apply. However they have to submit proof of passing all semester examination/final degree at the time of completion of the course. Otherwise no certificate will be issued.\nOn the date of counseling/admission, the candidate must produce the original mark lists up to the last semester/year of examination."]
+        },
+        {
+            "tag": "query51",
+            "patterns": ["SEAT DISTRIBUTION ADMISSION FIRST YEAR BE"],
+            "responses": ["Intake (69 Seats)\nThree seats are reserved for Non-Resident Indian (NRI) / Persons of Indian Origin (PIO) / Children of Indian workers in the Gulf Countries (CIWG) quota and Six Seats are reserved for Economically Weaker Section (EWS).\n\nDistribution of remaining seats is as under:\nGeneral : 28, OBC: 15, SC: 9, ST: 5, PwD (General): 2, PwD(OBC): 1"]
+        },
+        {
+            "tag": "query52",
+            "patterns": ["DOCUMENTS ADMISSION FIRST YEAR BE"],
+            "responses": ["Mandatory Documents to be submitted:\n\nPassport Size Photograph.\nStandard 10th passing certificate & Mark-sheet.\nStandard 12th passing certificate & Mark-sheet.\nFinal Semester Mark-sheet.\nQualifying Degree.\nGATE score card (if applicable).\nCaste Certificate (if applicable)."]
+        },
+        {
+            "tag": "query53",
+            "patterns": ["FEE STRUCTURE FIRST YEAR BE M. Tech"],
+            "responses": ["https://beta.nielit.gov.in/chennai/aurangabad/guwahati/content/mtech-programme-0"]
+        },
+        {
+            "tag": "query54",
+            "patterns": ["ELIGIBILITY ADMISSION DIRECT SECOND YEAR BE"],
+            "responses": ["Three Year Diploma Passed candidates of Electronics & allied streams with minimum 45% marks (40 percent for SC/ST candidates) are eligible for Lateral Entry (Direct Second Year) in B.Tech."]
+        },
+        {
+            "tag": "query55",
+            "patterns": ["SEAT DISTRIBUTION ADMISSION DIRECT SECOND YEAR BE"],
+            "responses": ["Intake (69 Seats)\n\nThree seats are reserved for Non-Resident Indian (NRI) / Persons of Indian Origin (PIO) / Children of Indian workers in the Gulf Countries (CIWG) quota and Six Seats are reserved for Economically Weaker Section (EWS).\nDistribution of remaining seats is as under:\nGeneral : 28, OBC: 15, SC: 9, ST: 5, PwD (General): 2, PwD(OBC): 1"]
+        },
+        {
+            "tag": "query56",
+            "patterns": ["About NIELIT"],
+            "responses": ["The history of Centre dates back to 1974 when the Department of Electronics (DoE) now Ministry of Electronics and Information Technology (MeitY), Govt. of India and the University Grants Commission (UGC) set up the first CEDT within the premises of Indian Institute of Science (IISc.), Bangalore with assistance from Swiss Development Corporation.\n\nA decade after the successful running of CEDT, Bangalore, DoE (now MeitY) set up similar centres at Aurangabad, Imphal and Srinagar in 1987, Calicut, Mohali and Gorakhpur in 1989, with an objective to develop human resources at different levels and in different specialized areas of Electronics Design. Aim was to bridge the gap between the academic institutions and industries.\n\nThe CEDT centres based at Aurangabad, Calicut, Gorakhpur, Imphal and Srinagar were merged with DOEACC (a scientific society of MeitY) in 2001. In order for its metamorphism into an Institute of National Importance the Society was renamed as \u2018National Institute of Electronics and Information Technology (NIELIT) on October 10, 2011.\nNIELIT Aurangabad Centre was established in the year 1987 as a solution-oriented model organization for promotion of Electronics, IT and knowledge-based enterprise through development of appropriate human resources and intellectual properties. It is co-located inside the lush green campus of Dr B.A.M. University and its campus is spreads over more than 18 acres. It has about 14 well equipped laboratories and Mechanical workshop besides a rich Library, Gymnasium for students, Auditorium, Canteen, Basket-ball ground, Volley ball ground, Kho Kho ground etc.\n\nThe prime role of the Centre is to train manpower in Electronics Design & Technology, Information Technology, Electronics Product Design & Development, Manufacturing (Electronics & Mechanical) Technology, Applied research and Consultancy in the field of Information, Electronics and Communication Technology (IECT).\n\nThe Industrial grade laboratories of the Centre are fully equipped with the latest systems and development tools in the areas such as CAD/CAM, Consumer Electronics, Embedded System Design, Industrial Automation, Internet of Things, Network and Server Facilities, Open Source Computing, Opto-Electronics, Printed Circuit Board, Power Electronics Lab, Testing & Measurement and VLSI Design.\n\nBesides numerous reference books, Journals, magazines; the students of the Centre have access to MeitY Library Consortium (rich collection of latest e-Journals including IEEE and books) and National Knowledge Network (NKN) a strong a network with multi-gigabit capability connected to all universities, research institutions, libraries, laboratories, healthcare and agricultural institutions across the country.\n\nAll the labs, library and office are connected through the central network and students can retrieve information from their terminals itself and through well connected Wi-Fi system. The Centre organizes National Level Seminars/Workshops in areas like Agri-Electronics, Electronics Product Design, Intellectual Property Rights(IPR), Neural Networks, e-learning regularly.\n\nThe Centre offers varied range of courses in Formal and non-Formal Sector in the areas of IECT. The most sought after Formal Sector Courses that the Centre offers includes Diploma in Electronics Production and Maintenance since 1987, M.Tech (Electronics Design and Technology) since 1990, B Tech (Electronics System Engineering) since 2013 and is also a Recognized Research Centre of the Dr. B.A.M. University, Aurangabad since 2007 for conducting research leading to award of Ph.D. Degree in Engineering and Technology.    \nIn non-formal Sector, the Centre is offering a Bouquet of around 25 NSQF aligned Diploma and Certificate Courses in emerging areas of Electronics and IT including Mobile Application Development using Android, Web Designing, Web Application Development in Dot Net, CAD using CREO, on Printed Circuit Board (Design, Analysis and Manufacturing Techniques), Additive Manufacturing /3D Printing, Advance Diploma in Computer Application Accounting and Publishing, Linux, Apache, MySQL and PHP, Arduino/Raspberry Pi based Embedded System Design, Cyber Security to name a few.\nUnder PPP model the Centre is offering O/A/B/C level in IT, O/A level in Hardware and Digital Literacy Courses (BCC/CCC/CCC+/ECC). Some of these courses are recognized by many State Governments including Maharashtra for employment purpose (http://nielit.gov.in/content/recognition-0).\nThe Centre also provides consultancy and other services to leading Industries of the region like Bajaj Auto Ltd, Videocon, Sterlite, Siemens, Meltron, Maharashtra Police Wireless, etc. The Centre is also organizing National Level Seminars/Workshops in Agri-Electronics, Electronics Product Design, Intellectual Property Rights(IPR), Neural Networks, e-learning, etc from time to time.\nThe Centre is also implementing number of Projects for the Empowerment of Weaker Section of Society especially for candidates belonging to SC/ST, Rural, Minorities, Women and other underprivileged strata of society through skill development in IT Skills, Electronics Equipment Repair & Maintenance and ITES-BPO (Customer Care & Banking) sector leading to their enhanced livelihood. It is also implementing a project sponsored by Director General (Resettlement), Ministry of Defence, Government of India for skill development of Army Jawan on CHM O-Level course.\nIt is also implementing ESDM scheme sponsored by Ministry of Electronics and Information Technology (MeitY) for developing human resource with adequate competence levels in Electronics Design & Production Technologies, e-Waste management. Other scheme being implemented by Centre includes e-Waste Management, ISEA and Digital Marketing for Traders.\n Trained to become R&D engineers students of the centre are working in leading and reputed organizations like C.G Coral. Lucent India, Texas, L&T, HCL, Wipro Technologies, BITS, IIT, BEL, HAL, ISRO,DRDO, BARC, ECIL, Messung, Thermax, Honeywell Cyrus logic L&T EMSYS to name a few.\nThe core values of excellence, integrity, transparency, quality, team work, execution with passion, trust, continuous and student centric learning has enabled bridging of the gap between academics & industry requirements and helped to foster the achievement of the Centre thus established NIELIT Centre Aurangabad a leader in so many areas.\nOur aim is to achieve global leadership in human resource development and excellence in technical, education and research."]
+        },
+        {
+            "tag": "query57",
+            "patterns": ["DOCUMENTS ADMISSION DIRECT SECOND YEAR BE"],
+            "responses": ["Three Year Diploma Passed candidates of Electronics & allied streams with minimum 45% marks (40 percent for SC/ST candidates) are eligible for Lateral Entry (Direct Second Year) in B.Tech."]
+        },
+        {
+            "tag": "query58",
+            "patterns": ["FEE STRUCTURE DIRECT SECOND YEAR BE"],
+            "responses": ["45,891 per semester"]
+        },
+        {
+            "tag": "query59",
+            "patterns": ["ELIGIBILITY ADMISSION MBA"],
+            "responses": ["No MBA"]
+        },
+        {
+            "tag": "query60",
+            "patterns": ["SEAT DISTRIBUTION ADMISSION MBA"],
+            "responses": ["No MBA"]
+        },
+        {
+            "tag": "query61",
+            "patterns": ["DOCUMENTS ADMISSION MBA"],
+            "responses": ["No MBA course"]
+        },
+        {
+            "tag": "query62",
+            "patterns": ["FEE STRUCTURE MBA"],
+            "responses": ["No MBA course"]
+        },
+        {
+            "tag": "query63",
+            "patterns": ["ELIGIBILITY CRITERIA ADMISSION MBA INTEGRATED"],
+            "responses": ["No MBA course"]
+        },
+        {
+            "tag": "query64",
+            "patterns": ["SEAT DISTRIBUTION ADMISSION MBA INTEGRATED"],
+            "responses": ["No MBA course"]
+        },
+        {
+            "tag": "query65",
+            "patterns": ["DOCUMENTS ADMISSION MBA INTEGRATED"],
+            "responses": ["No MBA course"]
+        },
+        {
+            "tag": "query66",
+            "patterns": ["FEE STRUCTURE MBA INTEGRATED"],
+            "responses": ["No MBA course"]
+        },
+        {
+            "tag": "query67",
+            "patterns": ["Eligibility criteria for Direct Second Year in B.Tech"],
+            "responses": ["Three Year Diploma Passed candidates of Electronics & allied streams with minimum 45% marks (40 percent for SC/ST candidates) are eligible for Lateral Entry (Direct Second Year) in B.Tech."]
+        },
+        {
+            "tag": "query68",
+            "patterns": ["ELIGIBILITY CRITERIA ADMISSION MTECH"],
+            "responses": ["B.E. / B.Tech Degree or equivalent in Electronics / Electrical /Telecommunication / Instrumentation engineering etc from a recognized University with at least 55% of marks.The candidate should have been serving in Academic Institution/Industry / R&D organization engaged in electronic product or system development for at least two years after completion of B.E. /B. Tech. degree.\n\nThe candidate should be sponsored by the employer.His / Her working place should be within 60 km distance from the institute.He should produce necessary sponsorship certificate along with application in the prescribed form."]
+        },
+        {
+            "tag": "query69",
+            "patterns": ["SEAT DISTRIBUTION ADMISSION MTECH"],
+            "responses": ["Intake (69 Seats)\nThree seats are reserved for Non-Resident Indian (NRI) / Persons of Indian Origin (PIO) / Children of Indian workers in the Gulf Countries (CIWG) quota and Six Seats are reserved for Economically Weaker Section (EWS).\n\nDistribution of remaining seats is as under:\nGeneral : 28, OBC: 15, SC: 9, ST: 5, PwD (General): 2, PwD(OBC): 1"]
+        },
+        {
+            "tag": "query70",
+            "patterns": ["DOCUMENTS ADMISSION MTECH"],
+            "responses": ["Mandatory Documents to be submitted:\n\nPassport Size Photograph.\nStandard 10th passing certificate & Mark-sheet.\nStandard 12th passing certificate & Mark-sheet.\nGraduation Final Semester Mark-sheet.\nQualifying Degree.\nGATE score card (if applicable).\nCaste Certificate (if applicable)."]
+        },
+        {
+            "tag": "query71",
+            "patterns": ["Faculty of NIELIT Guwahati"],
+            "responses": ["https://beta.nielit.gov.in/chennai/aurangabad/guwahati/content/people-nielit-guwahati-0"]
+        },
+        {
+            "tag": "query72",
+            "patterns": ["M.Tech Courses and faculty"],
+            "responses": ["https://beta.nielit.gov.in/kokrajhar/calicut/ranchi/calicut/calicut/guwahati/content/mtech-programme-0"]
+        },
+        {
+            "tag": "query73",
+            "patterns": ["FEE STRUCTURE MTECH 2020-2022"],
+            "responses": ["Rs. 40000/- per Semester for more info please visit https://beta.nielit.gov.in/kokrajhar/calicut/ranchi/calicut/calicut/guwahati/content/mtech-programme-0"]
+        },
+        {
+            "tag": "query74",
+            "patterns": ["Extension of approval for the academic year 2020-21"],
+            "responses": ["https://beta.nielit.gov.in/kokrajhar/calicut/ranchi/calicut/calicut/guwahati/content/mtech-programme-0"]
+        },
+        {
+            "tag": "query75",
+            "patterns": ["ELIGIBILITY ADMISSION MCA"],
+            "responses": ["Need to be qualified in graduate from any recognised University,  Gate Candidates: Based on Gate Score and their performance in interview\nNon-Gate Candidates: Based on B.E/ B.Tech marks and their performance in interview.\nSponsored Candidates: Based on B.E/ B.Tech marks and their performance in\ninterview"]
+        },
+        {
+            "tag": "query76",
+            "patterns": ["SEAT DISTRIBUTION ADMISSION MCA"],
+            "responses": ["NIELIT Gorakhpur is conducting M.Tech course since 2000. These courses are recognized by AICTE and affiliated to Dr. A.P.J. Abdul Kalam Technical University, Lucknow. These are four-semester (2 years) course, which grooms students for a high profile career in design and development of electronic products and systems. The M.Tech. course commences in the month of August every year. Intake capacity is Eighteen (18) students per batch per year in each branch and admission to SC/ST Candidates shall be as per Government Policy. Total 22.5% of available seats are reserved for Scheduled Caste (SC) and Scheduled Tribe (ST) students (7.5% for STs, 15% for SCs)."]
+        },
+        {
+            "tag": "query77",
+            "patterns": ["What are the course outcome"],
+            "responses": ["The M.Tech. courses ED&T and VLSI Design, offered at NIELIT Gorakhpur enhances the knowledge and skills of students in various hardware and software design aspects of Electronics Design. It leads to post graduate engineers ready to meet the requirements of designing appropriate electronic products for real time applications. Student at NIELIT Gorakhpur gets hands-on-experience of latest electronic design tools of PCB, VLSI, Mixed signal, Embedded Systems and full cycle of electronic product design for emerging applications. Through the highly practical oriented curriculum and pedagogy the students build expertise in cutting edge technologies of electronics"]
+        },
+        {
+            "tag": "query78",
+            "patterns": ["DOCUMENTS REQUIRED ADMISSION MCA"],
+            "responses": ["Passport Size Photograph.\nStandard 10th passing certificate & Mark-sheet.\nStandard 12th passing certificate & Mark-sheet.\nFinal Semester Mark-sheet.\nQualifying Degree.\nGATE score card (if applicable).\nCaste Certificate (if applicable)."]
+        },
+        {
+            "tag": "query79",
+            "patterns": ["FEE STRUCTURE MCA"],
+            "responses": ["Rs. 15000/- Per semester"]
+        },
+        {
+            "tag": "query80",
+            "patterns": ["DOCTORAL PROGRAMMES"],
+            "responses": ["Your search yielded no results"]
+        },
+        {
+            "tag": "query81",
+            "patterns": ["PHD SUPERVISORS"],
+            "responses": ["Your search yielded no results"]
+        },
+        {
+            "tag": "query82",
+            "patterns": ["PHD SCHOLARS"],
+            "responses": ["Course Description: This is an online, instructor \u2013 led course which provides a thorough knowledge about the Hardware for computational neuroscience. Two Weeks online training with Remote FPGA Lab Access for the candidates. Well Experienced Faculties from Vellore Institute of Technology \u2013 (VIT Vellore) and National Institute of Electronics and Information Technology- (NIELIT Calicut) will be handling the sessions for all the 10 Days. Students who can apply Students of Engineering (UG & PG) & MSc (Electronics), PhD scholars, faculty members and professionals from Industry."]
+        },
+        {
+            "tag": "query83",
+            "patterns": ["PHD GUIDELINES"],
+            "responses": ["NIELIT Centre Aurangabad is a recognized Research Centre of the Dr. B.A.M. University, Aurangabad (MS) for conducting research leading to Ph.D Degree in Engineering and Technology. The institute has the facility to pursue the research work in the fields of Electrical, Electronics, Instrumentation, Communication, Information Technology/Science, Computer Engineering/Science, etc. Interested candidates, meeting the eligibility criteria set by the Dr.B.A.M. University, Aurangabad or any other University/Deemed University proposed by the candidate, shall be allowed to propose this institute as Research Centre, subject to the Rules and Regulations of this institute, laid down for this purpose. The candidate shall register with the proposed University/Deemed University and complete all the formalities, laid down by the said University from time to time (Fee, Progress Report, Synopsis, Thesis, etc.), in addition to fulfilling the requirements of this institute. for more info please visit https://www.nielit.gov.in/calicut/chennai/aurangabad/guwahati/content/doctoral-phd-programme-engineering-technology"]
+        },
+        {
+            "tag": "query84",
+            "patterns": ["UNIVERSITY ORDINANCES"],
+            "responses": ["1.    MoA, Rules & Regulations and Bye-laws\n\n            1.1.  Memorandum of Asssociation (MoA) \n            1.2.  Rules and Regulations\n            1.3.  Bye-laws. For more info please visit https://www.nielit.gov.in/calicut/chennai/aurangabad/guwahati/content/acts-rules"]
+        },
+        {
+            "tag": "query85",
+            "patterns": ["ADMISSION NOTIFICATION"],
+            "responses": ["Admission Notice August/September 2020 For more info visit https://nielit.gov.in/guwahati/guwahati/node/15541"]
+        },
+        {
+            "tag": "query86",
+            "patterns": ["RESEARCH DEVELOPMENT CELL"],
+            "responses": ["Information Technology\nInformation products and services have become increasingly a major component of our lives thus necessitating the need to enhance competencies in every sphere of Information Technology. In the brave new world a widespread access to information, communications and resources is the only solution to remove the insurmountable barriers to education, democratization process and overall economic growth. The primary objectives of the Research and Development programmes supported by NIELIT is thus to facilitate proliferation and absorption of emerging technologies in the IT sector, facilitate capacity building, creating the right infrastructure and making the existing technologies, affordable to the citizens of the country. This is the only way to take lead in the global knowledge economy. NIELIT supports Research and Development and coordinates the technical activities of the respective Scientific Societies.\n\nElectronics\nThe Electronics sector is a key player in the economy and one of the most globalised industries in the world. It is a strategic enabler and a driving force for all the services, be it Internet, telecom, precision engineering industries, aviation, energy, banking imagine any service, nothing works without Electronics. The rapidly growing Indian electronics industry can be broadly categorised into six segments. They are consumer Electronics (the largest chunk of the market), industrial Electronics, strategic Electronics, Computers, Communication and Broadcasting equipment and Electronic components. \n\nA key focus in the Electronics sector is R&D leading to innovative products. NIELIT has long acknowledged R&D as an integral part of Electronics ecosystem and is supporting the entire value chain of R&D activities in the country ranging from the basic components to sophisticated product development.\n\nAs a roadmap for developing, strengthening and enhancing the competitiveness of the Indian Electronics sector NIELIT has constituted a group-R&D in Electronics Group to conduct sponsored R&D activities across India at various academic institutions of higher learning and R&D laboratories, in the areas assigned to it through a variety of plan programmes. The sophisticated projects assigned to the groups cover a wide spectrum of key technological areas. These include developments in Nanotechnology, Medical Electronics, Microelectronics, Industrial Electronics et al. For more info please visit https://beta.nielit.gov.in/kolkata/guwahati/node/10962"]
+        },
+        {
+            "tag": "query87",
+            "patterns": ["HIGHEST PACKAGE LAST YEAR"],
+            "responses": ["No records found"]
+        },
+        {
+            "tag": "query88",
+            "patterns": ["AVERAGE PLACEMENT RATE"],
+            "responses": ["No records found"]
+        },
+        {
+            "tag": "query89",
+            "patterns": ["MILESTONES 2016 BATCH"],
+            "responses": ["No records found"]
+        },
+        {
+            "tag": "query90",
+            "patterns": ["MILESTONES 2017 BATCH"],
+            "responses": ["No records found"]
+        },
+        {
+            "tag": "query91",
+            "patterns": ["MILESTONES 2015 BATCH"],
+            "responses": ["No records found"]
+        },
+        {
+            "tag": "query92",
+            "patterns": ["MILESTONES 2014 BATCH"],
+            "responses": ["No records found"]
+        },
+        {
+            "tag": "query93",
+            "patterns": ["MILESTONES 2013 BATCH"],
+            "responses": ["No records found"]
+        },
+        {
+            "tag": "query94",
+            "patterns": ["INFOSYS CAMPUS CONNECT"],
+            "responses": ["No records found"]
+        },
+        {
+            "tag": "query95",
+            "patterns": ["ACCENTURE HEAD START"],
+            "responses": ["No records found"]
+        },
+        {
+            "tag": "query96",
+            "patterns": ["ITC INFOTECH CAMPUS CONNECT"],
+            "responses": ["No records found"]
+        },
+        {
+            "tag": "query97",
+            "patterns": ["CORE COMPANIES RECRUITED 5 YEARS"],
+            "responses": ["No records found"]
+        },
+        {
+            "tag": "query98",
+            "patterns": ["IT COMPANIES RECRUITED 5 YEARS"],
+            "responses": ["No records found"]
+        },
+        {
+            "tag": "query99",
+            "patterns": ["WIPRO JUMP START"],
+            "responses": ["No records found"]
+        },
+        {
+            "tag": "query100",
+            "patterns": ["PROCEDURE TRAINING PLACEMENT RECRUITMENT"],
+            "responses": ["In order to provide an impetus to NIELIT qualifiers, efforts are being made to facilitate and empower these qualifiers by way of a dedicated placement portal. To begin with, the portal shall permit the free registration and submission of details by NIELIT qualifiers so that centralized efforts are made to make available these details to the industry for the purpose of employment. The portal shall also facilitate prospective employers to examine and select resumes on specific need and skill sets. Subsequently, the portal shall be scaled to permit non NIELIT qualifiers also to submit their details along with a reasonable fee towards placement efforts by NIELIT."]
+        },
+        {
+            "tag": "query101",
+            "patterns": ["TRAINING PLACEMENT"],
+            "responses": ["https://www.nielit.gov.in/content/placement-portal"]
+        },
+        {
+            "tag": "query102",
+            "patterns": ["PLACEMENT STATISTICS"],
+            "responses": ["No records found"]
+        },
+        {
+            "tag": "query103",
+            "patterns": ["RECRUITING COMPANIES "],
+            "responses": ["No records found"]
+        },
+        {
+            "tag": "query104",
+            "patterns": ["ACADEMICS"],
+            "responses": ["https://www.nielit.gov.in/academic_news_1"]
+        },
+        {
+            "tag": "query105",
+            "patterns": ["UNDERGRADUATE PROGRAMMES"],
+            "responses": ["Certified Android Apps Developer, Capacity Building Sponsored Projects, NSQF Courses, Short-Term Courses, Skill Development in ICT Area for Minority Candidates of Bihar. For more info https://www.nielit.gov.in/search/node/undergraduate"]
+        },
+        {
+            "tag": "query106",
+            "patterns": ["UG PROGRAMMES"],
+            "responses": ["Certified Android Apps Developer. Objective: It\u2019s no secret that mobile applications are an integral part of our lives now. From online shopping to ordering food and playing games, there is an app for almost everything.Android Apps Developer are able to Create Applications, Activities, Network Based Application, Application with Database."]
+        },
+        {
+            "tag": "query107",
+            "patterns": ["POSTGRADUATE PROGRAMMES"],
+            "responses": ["M.Tech in Electronics Design and Technology(Full Time Course), PC500 : Advanced Diploma-PLC/SCADA/DCS Engineer (16 Weeks), VL500: Post Graduate Diploma in VLSI & Embedded Hardware Design. For more info https://beta.nielit.gov.in/shimla/content/online-courses-2"]
+        },
+        {
+            "tag": "query108",
+            "patterns": ["PG PROGRAMMES"],
+            "responses": ["PG Diploma in Data Science & Analytics,The Post Graduate Diploma in Data Science & Analytics a unique 6 month (840 Hours) program offered by NIELIT Chennai is an excellent blend of knowledge and practice in the field of Data Science and its industrial applications, for further info please visit https://nielit.gov.in/guwahati/content/pg-diploma-data-science-analytics"]
+        },
+        {
+            "tag": "query109",
+            "patterns": ["PHD PROGRAMMES"],
+            "responses": ["University of Calicut and National Institute of Electronics and Information Technology (NIELIT-), Calicut has signed an agreement for mutual cooperation in the field of Electronics Education and Research. As per the agreement Scientist, Engineers and Teachers can   become research guides of the University and guide aspiring candidates for Doctorate Programs in Electronics. The research students of  NIELIT-C shall register with Calicut university to pursue PhD in the areas of Electronics"]
+        },
+        {
+            "tag": "query110",
+            "patterns": ["DOCTORAL PROGRAMMES"],
+            "responses": ["https://nielit.gov.in/calicut/calicut/guwahati/content/research-leading-phd"]
+        },
+        {
+            "tag": "query111",
+            "patterns": ["DOCTOR PHILOSOPHY"],
+            "responses": ["Training Calendar for Doctor of Philosophy(Ph. D.) Course under Formal Courses run by NIELIT Aurangabad for the Year 2019. For more info https://nielit.gov.in/calicut/calicut/guwahati/FC_PhD_Aurangabad_TC_2019"]
+        },
+        {
+            "tag": "query112",
+            "patterns": ["ORDINANCES"],
+            "responses": ["https://nielit.gov.in/calicut/guwahati/content/acts-rules"]
+        },
+        {
+            "tag": "query113",
+            "patterns": ["OPEN ELECTIVE"],
+            "responses": ["Yes, available for every courses"]
+        },
+        {
+            "tag": "query114",
+            "patterns": ["OPEN ELECTIVES"],
+            "responses": ["Yes, available for every courses"]
+        },
+        {
+            "tag": "query115",
+            "patterns": ["SYLLABUS"],
+            "responses": ["Please visit our web site https://nielit.gov.in/guwahati/search/node/syllabus"]
+        },
+        {
+            "tag": "query116",
+            "patterns": ["MEMBERS ACADEMIC COUNCIL"],
+            "responses": ["Academic Advisory Committee, for more info visit https://beta.nielit.gov.in/content/academic-advisory-committee-0"]
+        },
+        {
+            "tag": "query117",
+            "patterns": ["BOARD STUDIES"],
+            "responses": ["Attended meeting of Board of Studies of Department of Electronics and Telecomm. Engineering, Government college of Engineering Aurangabad\nAttended meeting of Board of Studies of Department of Electronics and Telecomm. Engineering, Government college of Engineering Aurangabad , for more info viist https://beta.nielit.gov.in/content/attended-meeting-board-studies-department-electronics-and-telecomm-engineering-government"]
+        },
+        {
+            "tag": "query118",
+            "patterns": ["CENTRAL LIBRARY"],
+            "responses": ["The centre has excellent library facilities with latest books and journals in the fields of Electronics and IT. Digital Library facilities are also being enhanced"]
+        },
+        {
+            "tag": "query119",
+            "patterns": ["ACADEMIC CALENDAR"],
+            "responses": ["https://beta.nielit.gov.in/search/node/ACADEMIC%20CALENDAR"]
+        },
+        {
+            "tag": "query120",
+            "patterns": ["ACADEMIC CALENDAR B.TECH"],
+            "responses": ["B.Tech (Electronics System Engineering) - Lateral Entry\nAdmission to the Second Year-2020-21 against vacant seat\n\nB.Tech.(Electronics System Engineering) is a four years unique course approved by AICTE, New Delhi that is designed to produces Qualified and skilled engineers capable of doing Innovative Design and Development of Electronic Products. Students are provided practical skills in the areas of Electronics Design & Technology and includes interdisciplinary field issues necessary for successful system development, design, implementation and ultimate disposal after decommission.\n\nObjective\n\nTo groom Engineers to adopt to changing professional and societal needs through the project-oriented teaching approach. The course interdisciplinary field issues such as requirements engineering, industrial design, product engineering, ergonomics, aesthetics, System-level packaging, thermal design, reliability, EMI&EMC, testing & evaluation, maintainability, and Serviceability related to various aspects of Electronics Product Development. For more info visit https://beta.nielit.gov.in/content/btech-electronics-system-engineering-lateral-entry"]
+        },
+        {
+            "tag": "query121",
+            "patterns": ["ACADEMIC CALENDAR MTECH"],
+            "responses": ["Apply online for M.Tech admissions in academic session 2020-21\n\nThis is a six semesters (3 years) AICTE approved course for working professionals with the degree awarded by Dr. Babasaheb Ambedkar Marathwada University, Aurangabad (MS).\n\nObjective\n\nTo upgrade the skill of the working engineers by induction of new technologies available and developed through years of academic research and development which results in improved quality and profitability of the company. To enhance knowledge of working engineers in various aspects of Electronic Systems enabling them to work efficiently with emerging multi gigahertz digital and mixed signal ICs and applications targeted for IoT, smart cities, 5G, industrial automation, mobile communication, automotive, space, aviation, railways, agriculture and consumer electronics.\n\nCourse upgrades the working engineers skills in cutting edge technologies like \u2013Embedded, Optoelectronic/Electronic Integration, Mixed-Signal Integrated Systems, Embedded Software, Electromagnetic, Electro-Optics, CAD/CAM and PCB fabrication.\n\nIntake (24Seats)\n\n \n\n \n\nCourse Outcome\n\nWorking engineers will get exposed to the latest electronic design tools of Industrial & Physical design of Electronic Equipment, Embedded Systems, Power Electronics & Optoelectronics and full cycle of electronic product design for emerging applications. Student can think of incorporating the knowledge acquired in the growth of their parent company, thus enhancing their productivity. Companies can think of taking up projects through the sponsored student for solving real technical issues faced by the company and can think of setting up joint industrial level test and developmental platforms at our premises, for more info visit https://beta.nielit.gov.in/content/mtech-electronics-design-and-technologypart-time-course"]
+        },
+        {
+            "tag": "query122",
+            "patterns": ["ACADEMIC CALENDAR MCA"],
+            "responses": ["Please visit https://nielit.gov.in/guwahati/search/node/academic%20calendar"]
+        },
+        {
+            "tag": "query123",
+            "patterns": ["ACADEMIC CALENDAR MBA INTEGRATED"],
+            "responses": ["No MBA course"]
+        },
+        {
+            "tag": "query124",
+            "patterns": ["ACADEMIC CALENDAR BE FIRST SEMESTER"],
+            "responses": ["Please visit https://nielit.gov.in/guwahati/search/node/academic%20calendar"]
+        },
+        {
+            "tag": "query125",
+            "patterns": ["ACADEMIC CALENDAR MTECH FIRST SEMESTER"],
+            "responses": ["Please visit https://nielit.gov.in/guwahati/search/node/academic%20calendar"]
+        },
+        {
+            "tag": "query126",
+            "patterns": ["ACADEMIC CALENDAR MCA FIRST SEMESTER"],
+            "responses": ["Please visit https://nielit.gov.in/guwahati/search/node/academic%20calendar"]
+        },
+        {
+            "tag": "query127",
+            "patterns": ["ACADEMIC CALENDAR MBA INTEGRATED FIRST SEMESTER"],
+            "responses": ["Please visit https://nielit.gov.in/guwahati/search/node/academic%20calendar"]
+        },
+        {
+            "tag": "query128",
+            "patterns": ["SYLLABUS COMBINED THEORIES"],
+            "responses": ["For more information please visit \"https://nielit.gov.in/guwahati/search/node/syllabus\""]
+        },
+        {
+            "tag": "query129",
+            "patterns": ["SYLLABUS NUMERICAL TECHNIQUES"],
+            "responses": ["For more information please visit \"https://nielit.gov.in/guwahati/search/node/syllabus\""]
+        },
+        {
+            "tag": "query130",
+            "patterns": ["SYLLABUS NANOTECHNOLOGY"],
+            "responses": ["For more information please visit \"https://nielit.gov.in/guwahati/search/node/syllabus\""]
+        },
+        {
+            "tag": "query131",
+            "patterns": ["SYLLABUS SOLID STATE LIGHTING"],
+            "responses": ["For more information please visit \"https://nielit.gov.in/guwahati/search/node/syllabus\""]
+        },
+        {
+            "tag": "query132",
+            "patterns": ["SYLLABUS EMPLOYABILITY SKILLS ENGINEERS"],
+            "responses": ["For more information please visit \"https://nielit.gov.in/guwahati/search/node/syllabus\""]
+        },
+        {
+            "tag": "query133",
+            "patterns": ["SYLLABUS STATISTICAL BUSINESS MANAGEMENT"],
+            "responses": ["For more information please visit \"https://nielit.gov.in/guwahati/search/node/syllabus\""]
+        },
+        {
+            "tag": "query134",
+            "patterns": ["SYLLABUS CHALLENGES HUMAN RESOURCE DEVELOPMENT"],
+            "responses": ["For more information please visit \"https://nielit.gov.in/guwahati/search/node/syllabus\""]
+        },
+        {
+            "tag": "query135",
+            "patterns": ["SYLLABUS ORIENTATION GERMAN"],
+            "responses": ["For more information please visit \"https://nielit.gov.in/guwahati/search/node/syllabus\""]
+        },
+        {
+            "tag": "query136",
+            "patterns": ["SYLLABUS NON CONVENTIONAL ENERGY SOURCES ENVIRONMENTAL POLLUTION"],
+            "responses": ["For more information please visit \"https://nielit.gov.in/guwahati/search/node/syllabus\""]
+        },
+        {
+            "tag": "query137",
+            "patterns": ["SYLLABUS PSYCHOLOGY PROFESSIONAL GROWTH"],
+            "responses": ["For more information please visit \"https://nielit.gov.in/guwahati/search/node/syllabus\""]
+        },
+        {
+            "tag": "query138",
+            "patterns": ["SYLLABUS QUANTUM MECHANICS"],
+            "responses": ["For more information please visit \"https://nielit.gov.in/guwahati/search/node/syllabus\""]
+        },
+        {
+            "tag": "query139",
+            "patterns": ["SYLLABUS FINANCIAL MANAGEMENT"],
+            "responses": ["For more information please visit \"https://nielit.gov.in/guwahati/search/node/syllabus\""]
+        },
+        {
+            "tag": "query140",
+            "patterns": ["SYLLABUS INNOVATION ENTREPRENEURSHIP"],
+            "responses": ["For more information please visit \"https://nielit.gov.in/guwahati/search/node/syllabus\""]
+        },
+        {
+            "tag": "query141",
+            "patterns": ["SYLLABUS ENTREPRENEURSHIP DEVELOPMENT"],
+            "responses": ["For more information please visit \"https://nielit.gov.in/guwahati/search/node/syllabus\""]
+        },
+        {
+            "tag": "query142",
+            "patterns": ["SYLLABUS OBJECT ORIENTED PROGRAMMING"],
+            "responses": ["For more information please visit \"https://nielit.gov.in/guwahati/search/node/syllabus\""]
+        },
+        {
+            "tag": "query143",
+            "patterns": ["SYLLABUS FIRST YEAR"],
+            "responses": ["For more information please visit \"https://nielit.gov.in/guwahati/search/node/syllabus\""]
+        },
+        {
+            "tag": "query144",
+            "patterns": ["SYLLABUS CIVIL ENGINEERING"],
+            "responses": ["For more information please visit \"https://nielit.gov.in/guwahati/search/node/syllabus\""]
+        },
+        {
+            "tag": "query145",
+            "patterns": ["SYLLABUS COMPUTER SCIENCE ENGINEERING"],
+            "responses": ["For more information please visit \"https://nielit.gov.in/guwahati/search/node/syllabus\""]
+        },
+        {
+            "tag": "query146",
+            "patterns": ["SYLLABUS CSE"],
+            "responses": ["For more information please visit \"https://nielit.gov.in/guwahati/search/node/syllabus\""]
+        },
+        {
+            "tag": "query147",
+            "patterns": ["SYLLABUS ELECTRONICS DESIGN"],
+            "responses": ["For more information please visit \"https://nielit.gov.in/guwahati/search/node/syllabus\""]
+        },
+        {
+            "tag": "query148",
+            "patterns": ["SYLLABUS ELECTRICAL ENGINEERING"],
+            "responses": ["For more information please visit \"https://nielit.gov.in/guwahati/search/node/syllabus\""]
+        },
+        {
+            "tag": "query149",
+            "patterns": ["SYLLABUS ELECTRONICS ENGINEERING"],
+            "responses": ["For more information please visit \"https://nielit.gov.in/guwahati/search/node/syllabus\""]
+        },
+        {
+            "tag": "query150",
+            "patterns": ["SYLLABUS ELECTRONICS COMMUNICATION"],
+            "responses": ["For more information please visit \"https://nielit.gov.in/guwahati/search/node/syllabus\""]
+        },
+        {
+            "tag": "query151",
+            "patterns": ["SYLLABUS INDUSTRIAL ENGINEERING"],
+            "responses": ["For more information please visit \"https://nielit.gov.in/guwahati/search/node/syllabus\""]
+        },
+        {
+            "tag": "query152",
+            "patterns": ["SYLLABUS INFORMATION TECHNOLOGY"],
+            "responses": ["For more information please visit \"https://nielit.gov.in/guwahati/search/node/syllabus\""]
+        },
+        {
+            "tag": "query153",
+            "patterns": ["SYLLABUS IT"],
+            "responses": ["For more information please visit \"https://nielit.gov.in/guwahati/search/node/syllabus\""]
+        },
+        {
+            "tag": "query154",
+            "patterns": ["SYLLABUS MECHANICAL ENGINEERING"],
+            "responses": ["For more information please visit \"https://nielit.gov.in/guwahati/search/node/syllabus\""]
+        },
+        {
+            "tag": "query155",
+            "patterns": ["MCA Elegibilities"],
+            "responses": ["Bachelor degree in Computer Science or Information Technology (B.Sc CS/IT) or Bachelor degree in Computer Application (BCA) or Bachelor degree in Science with Mathematics as one of the subject in 10+2 or in degree level or 4 years Bachelor degree in Engineering / Technology(BE/B.Tech.) or DOEACC 'A' level course after passing Bachelor degree/ B.Sc. with PGDCA"]
+        },
+        {
+            "tag": "query156",
+            "patterns": ["MCA faculty"],
+            "responses": ["The centre has a team of enthusiastic and competent engineers with post graduate qualifications. Most of our engineers have undergone specialized training in various International Universities / Industries. "]
+        },
+        {
+            "tag": "query157",
+            "patterns": ["MCA lab facilities"],
+            "responses": ["The IT Lab is equipped with high-end Intel Xeon Dual Processor based servers and more than 100 networked PCs with internet facility. A variety of software is available which include Operating Systems like Windows 2000, XP, NT, SCO UNIX, Novel NetWare, Linux, VxWorks, RTLinux, QNX and development tools like Visual Studio .NET, BC++, Kylix, Rational Rose, Cold Fusion etc. RDBMS packages like Oracle and SQL Server are also available."]
+        },
+        {
+            "tag": "query158",
+            "patterns": ["MCA project facility"],
+            "responses": ["Students get opportunity to work on latest technology based industrial projects under the guidance of highly qualified and experienced faculty"]
+        },
+        {
+            "tag": "query159",
+            "patterns": ["Placement Cell"],
+            "responses": ["The centre has set up a placement cell to facilitate campus recruitment by leading software companies. The placement cell will also advise the students on career planning and conduct training programs to develop soft skills"]
+        },
+        {
+            "tag": "query160",
+            "patterns": ["Advanced Training Program"],
+            "responses": ["In addition to the academic syllabus, students will be provided opportunities for enrolling for Diploma level courses in Software Technology, VLSI Design, Embedded System Design, Software & Systems for Process Automation & Information Security"]
+        },
+        {
+            "tag": "query161",
+            "patterns": ["M.Sc. Computer Science 1st Sem Syllabus"],
+            "responses": ["Operating System, Digital Logic and System Design, Computer Organization and Architecture, Programming Techniques-I (C, C++), Lab I: Programming Techniques-I (C,C++). For more info visit https://www.nielit.gov.in/gorakhpur/content/admission-notice-bcamsc-computer-sc"]
+        },
+        {
+            "tag": "query162",
+            "patterns": ["M.Sc. Computer Science 2nd Sem Syllabus"],
+            "responses": ["Data Structures, Database Management System/ RDBMS, Data Communication & Computer Networks, Theory of Computation, Lab II: Python Programming and SQL. For more info visit https://www.nielit.gov.in/gorakhpur/content/admission-notice-bcamsc-computer-sc"]
+        },
+        {
+            "tag": "query163",
+            "patterns": ["M.Sc. Computer Science 3rd Sem Syllabus"],
+            "responses": ["Computer Graphics & Multimedia, Design and Analysis of Algorithm, Web Programming Technologies, Elective \u2013 I, Seminar and Viva. For more info visit https://www.nielit.gov.in/gorakhpur/content/admission-notice-bcamsc-computer-sc"]
+        },
+        {
+            "tag": "query164",
+            "patterns": ["M.Sc. Computer Science 4th Sem Syllabus"],
+            "responses": ["Cryptography, Elective-II, Elective-III, Project work. For more info visit https://www.nielit.gov.in/gorakhpur/content/admission-notice-bcamsc-computer-sc"]
+        },
+        {
+            "tag": "query165",
+            "patterns": ["SYLLABUS MCA 1st Semester"],
+            "responses": ["1st Semester\n100 Computer Fundamentals and Applications\n101 Microprocessor , ALP and its Applications\n102 Technical Communication\n103 Advanced Programming Concepts in C / C++\n104 Advanced Database Management Systems\n105 Discrete Mathematics\n106 Lab for 103\n107 Lab for 101/104"]
+        },
+        {
+            "tag": "query166",
+            "patterns": ["MCA 2nd Sem Syllabus"],
+            "responses": ["2nd Semester\n201 Advance Computer Systems\n202 Data and File Structures\n203 Numerical and Statistical Computing\n204 Design and Analysis of Algorithms\n205 Advanced Data Communication\n206 Lab for 202\n207 Lab for 203"]
+        },
+        {
+            "tag": "query167",
+            "patterns": ["MCA 3rd Sem Syllabus"],
+            "responses": ["3rd Semester\n301 Advanced Operating Systems\n302 Optimization Techniques\n303 Computer Graphics\n304 Computer Networks , Protocols and Programming\n305 Software Engineering & Management\n306 Lab for 303\n307 Lab for 304"]
+        },
+        {
+            "tag": "query168",
+            "patterns": ["MCA 4th Sem Syllabus"],
+            "responses": ["4th Semester\n401 Organization Behaviour and Personal Management\n402 Object Oriented Modeling Analysis and Design\n403 Data Warehousing and Data Mining\n404 System Software Design\nElective I\n406 Lab for 403/Elective I\n407 Lab for 404"]
+        },
+        {
+            "tag": "query169",
+            "patterns": ["MCA 5th Sem Syllabus"],
+            "responses": ["5th Semester\n501 Java Programming\n502 Modeling & Simulation\n503 Artificial Intelligence & Neural Networks\n504 Web Programming\nElective II\n506 Lab for 501/502\n507 Lab for 504"]
+        },
+        {
+            "tag": "query170",
+            "patterns": ["MCA 6th Sem Syllabus"],
+            "responses": ["6th Semester\nProject seminar\nProject Work with Dissertation"]
+        },
+        {
+            "tag": "query171",
+            "patterns": ["BCA Eligibilities"],
+            "responses": ["10+2 passed in Science/ Arts/ Commerce with a minimum of 45% in aggregate (40% for reserved category) preferably with Computer Science/ Mathematics as a subject in 10+2 or Diploma Engineering from AICTE recognised institute."]
+        },
+        {
+            "tag": "query172",
+            "patterns": ["SYLLABUS BCA 1st sem"],
+            "responses": ["Computer Fundamental and ICT Hardware, Communicative English, Introduction to C Programming, Mathematics \u2013 I. Lab: Laboratory I (C Programming ) Additional info https://www.nielit.gov.in/gorakhpur/content/admission-notice-bcamsc-computer-sc"]
+        },
+        {
+            "tag": "query173",
+            "patterns": ["SYLLABUS BCA 2nd sem"],
+            "responses": ["Data Structure and Algorithm, Mathematics II, Digital Logic, Accounting and Financial Management, Laboratory II (C++Programming) For additional info https://www.nielit.gov.in/gorakhpur/content/admission-notice-bcamsc-computer-sc"]
+        },
+        {
+            "tag": "query174",
+            "patterns": ["SYLLABUS BCA 3rd sem"],
+            "responses": ["Computer Architecture and Organization, Database Management System, Object Oriented Programming in Java, Environmental science, Laboratory-III (Java and Basic Sql lab) For more info https://www.nielit.gov.in/gorakhpur/content/admission-notice-bcamsc-computer-sc"]
+        },
+        {
+            "tag": "query175",
+            "patterns": ["SYLLABUS BCA 4th sem"],
+            "responses": ["Software Engineering, Web Technology, Theory of Computer Science, Computer Networks, Laboratory-IV (Web Tech lab). For more info visit https://www.nielit.gov.in/gorakhpur/content/admission-notice-bcamsc-computer-sc"]
+        },
+        {
+            "tag": "query176",
+            "patterns": ["SYLLABUS BCA 5th sem"],
+            "responses": ["Operating System, Network Security and Cryptography, System Software, Elective \u2013 I, Minor Project. For more info visit https://www.nielit.gov.in/gorakhpur/content/admission-notice-bcamsc-computer-sc"]
+        },
+        {
+            "tag": "query177",
+            "patterns": ["SYLLABUS BCA 6th sem"],
+            "responses": ["Major Project"]
+        },
+        {
+            "tag": "query178",
+            "patterns": ["What are M. tech courses provides by NIELIT"],
+            "responses": ["Two M.tech courses are M.Tech in Electronics Design & Technology (ED&T), M.Tech in VLSI Design."]
+        },
+        {
+            "tag": "query179",
+            "patterns": ["SYLLABUS MTECH CSE"],
+            "responses": [""]
+        },
+        {
+            "tag": "query180",
+            "patterns": ["Eligibility for M.Tech in Electronics Design & Technology (ED&T)"],
+            "responses": ["B.E / B.Tech. (50% or equivalent CGPA) in Electronics & Comm. Engg. / Electronics Engg. / Instrumentation and Control Engineering/ Electrical and Electronics Engg. / Electronics and Instrument/Instrumentation and Control Engineering."]
+        },
+        {
+            "tag": "query181",
+            "patterns": ["SYLLABUS M.Tech in Electronics Design & Technology (ED&T) 1st Semester"],
+            "responses": ["Theory : Power Electronics System Design, Design of Digital Systems, Electronics Product Design, Electromagnetic & Radio Frequency Interference Compatible System Design, Lab: Power Electronic Lab, Digital System Design\nLab "]
+        },
+        {
+            "tag": "query182",
+            "patterns": ["SYLLABUS M.Tech in Electronics Design & Technology (ED&T) 2nd Semester"],
+            "responses": ["Theory : Analog and Data Conversion Systems, Embedded System Design, VLSI Design, Reliability of Electronic Equipment\u2019s. Lab: Embedded System Lab, Seminar I."]
+        },
+        {
+            "tag": "query183",
+            "patterns": ["SYLLABUS M.Tech in Electronics Design & Technology (ED&T) 3rd Semester"],
+            "responses": ["Seminar II and Dissertation"]
+        },
+        {
+            "tag": "query184",
+            "patterns": ["SYLLABUS M.Tech in Electronics Design & Technology (ED&T) 4th Semester"],
+            "responses": ["Dissertation (Final ) for further info https://www.nielit.gov.in/gorakhpur/content/mtech-programme-0"]
+        },
+        {
+            "tag": "query185",
+            "patterns": ["Eligibily for M.Tech in VLSI Design."],
+            "responses": ["B.E / B.Tech. (50% or equivalent CGPA) in Electronics & Comm. Engg/ Electronics Engg / Electrical & Electronics Engg. / Electronics & Instrumentation Engineering."]
+        },
+        {
+            "tag": "query186",
+            "patterns": ["SYLLABUS M.Tech in VLSI Design 1st semester"],
+            "responses": ["Theory: Low Power VLSI Design, FPGA Architecture & Applications, Departmental Elective I, Departmental Elective II, Research Process & Methodology. Lab: VLSI Circuit Design Lab, FPGA Design Lab"]
+        },
+        {
+            "tag": "query187",
+            "patterns": ["SYLLABUS M.Tech in VLSI Design 2nd semester"],
+            "responses": ["Theory: Hardware Description Languages, VLSI DSP Architectures, Departmental Elective III, Departmental Elective IV, Departmental Elective V. Lab: Advanced VLSI Design Lab, Seminar I"]
+        },
+        {
+            "tag": "query188",
+            "patterns": ["SYLLABUS M.Tech in VLSI Design 3rd semester"],
+            "responses": ["Seminar II, Dissertation (Practical)"]
+        },
+        {
+            "tag": "query189",
+            "patterns": ["SYLLABUS M.Tech in VLSI Design 4th semester"],
+            "responses": ["Dissertation Practical(Final ) for further info https://www.nielit.gov.in/gorakhpur/content/mtech-programme-0"]
+        },
+        {
+            "tag": "query190",
+            "patterns": ["SYLLABUS MTECH INDUSTRIAL"],
+            "responses": [""]
+        },
+        {
+            "tag": "query191",
+            "patterns": ["SYLLABUS MTECH HEAT POWER"],
+            "responses": [""]
+        },
+        {
+            "tag": "query192",
+            "patterns": ["Students FAQ"],
+            "responses": [""]
+        },
+        {
+            "tag": "query193",
+            "patterns": ["Advanced Diploma in Automotive Embedded System Design Objective"],
+            "responses": ["The objective of the course is to provide understanding of the techniques essential to the design and implementation of embedded systems using suitable hardware and software tools for Automotive Application. This course offers a range of topics of immediate relevance to industry and makes the participants exactly suitable for Automotive Industry"]
+        },
+        {
+            "tag": "query194",
+            "patterns": ["Any reservation policy for SC/ST candidate"],
+            "responses": ["Tuition Fees are waived for eligible SC/ST students under the reservation policy (SC: 15%, ST: 7.5% of total seats). However they are required to remit an amount of Rs.4, 000/- as advance caution/security deposit. This amount will be considered as caution/security deposit and will be refunded after completion of the course with no interest. If the student fails to complete the course successfully this amount along with any other caution/security deposits will be forfeited. Any other SC/ST candidates admitted over and above the reservation policy have to pay complete fee"]
+        },
+        {
+            "tag": "query195",
+            "patterns": ["Admission Notice For BCA/MSc-Computer Sc"],
+            "responses": ["https://nielit.gov.in/guwahati/content/admission-notice-bcamsc-computer-sc"]
+        },
+        {
+            "tag": "query196",
+            "patterns": ["Who can pursue b-tech Lateral Entry courses"],
+            "responses": ["Three Year Diploma Passed candidates of Electronics & allied streams with minimum 45% marks (40 percent for SC/ST candidates) are eligible for Lateral Entry (Direct Second Year) in B.Tech."]
+        },
+        {
+            "tag": "query197",
+            "patterns": ["What are the fee structure of 2020-2021"],
+            "responses": ["https://beta.nielit.gov.in/guwahati/guwahati/guwahati/content/revised-fee-structure-january2020"]
+        },
+        {
+            "tag": "query198",
+            "patterns": ["Are the floors designed considering ease of their movements around the campus"],
+            "responses": ["Not yet"]
+        },
+        {
+            "tag": "query199",
+            "patterns": ["Does NIELIT Guwahati have wheelchair facilities and are the floors designed considering ease of their movements around the campus"],
+            "responses": [" Not yet"]
+        },
+        {
+            "tag": "query200",
+            "patterns": ["Do NIELIT have medical emergency facilities available 24/7"],
+            "responses": ["Yes, we do have"]
+        },
+        {
+            "tag": "query201",
+            "patterns": ["How are the faculties of the college"],
+            "responses": ["https://beta.nielit.gov.in/ranchi/calicut/calicut/guwahati/content/staff-profile-0"]
+        },
+        {
+            "tag": "query202",
+            "patterns": ["What about the placement provided by the college"],
+            "responses": ["Yes, NIELIT has a centralised online placement portal that facilitates placements and internship facilities to its students"]
+        },
+        {
+            "tag": "query203",
+            "patterns": ["What are the available courses"],
+            "responses": ["Advanced Diploma, Diploma, Short-Term Courses, Long-Term Courses"]
+        },
+        {
+            "tag": "query204",
+            "patterns": ["Hostel Fees "],
+            "responses": ["Rs. 23000/- per Semester"]
+        },
+        {
+            "tag": "query205",
+            "patterns": ["What about the hostel facilities provided by the college"],
+            "responses": ["Limited hostel facility for ladies and gents are available. Canteen facility is also available for the students and staff"]
+        },
+        {
+            "tag": "query206",
+            "patterns": ["What are the facilities that have been provided for B. Tech/M.Tech/Civil/machanical"],
+            "responses": ["https://nielit.gov.in/guwahati/search/node/facilities%20for%20students"]
+        },
+        {
+            "tag": "query207",
+            "patterns": ["How much you like about your library as an engineering student"],
+            "responses": ["Fine."]
+        },
+        {
+            "tag": "query208",
+            "patterns": ["What is the annual fee structure of master programs in this university"],
+            "responses": ["https://beta.nielit.gov.in/guwahati/guwahati/content/revised-fee-structure-january2020"]
+        },
+        {
+            "tag": "query209",
+            "patterns": ["How many students are there in single classroom for master"],
+            "responses": ["Class room cum Lab: 03 (Three) Class room cum Labs with a seating capacity of 60 (20 each) nos of students"]
+        },
+        {
+            "tag": "query210",
+            "patterns": ["What are the fee structure of 2021 in NIELIT"],
+            "responses": ["https://beta.nielit.gov.in/guwahati/guwahati/content/revised-fee-structure-january2020"]
+        },
+        {
+            "tag": "query211",
+            "patterns": ["What are the eligibilities for admission in lateral entry"],
+            "responses": ["Need to be qualified in graduate from any recognised University"]
+        },
+        {
+            "tag": "query212",
+            "patterns": ["How good is the Computer Science department in NIELIT"],
+            "responses": ["Very good"]
+        },
+        {
+            "tag": "query213",
+            "patterns": ["How about study environment in your university campus"],
+            "responses": ["Friendly anti-ragging"]
+        },
+        {
+            "tag": "query214",
+            "patterns": ["Is there any facility for students after graduation"],
+            "responses": ["Livelihood / startups / self-employment, link: https://nielit.gov.in/guwahati/content/placement-1"]
+        },
+        {
+            "tag": "query215",
+            "patterns": ["What is the main objective of NIELIT"],
+            "responses": ["To be the leader in the development of industry oriented quality education and training and be the country's premier Institution for examination and certification in the field of Information, Electronics and Communications Technology (IECT)."]
+        },
+        {
+            "tag": "query216",
+            "patterns": ["What are the facilities provided by the NIELIT"],
+            "responses": ["https://nielit.gov.in/guwahati/content/education-training-0"]
+        },
+        {
+            "tag": "query217",
+            "patterns": ["Is there any diploma course in NIELIT"],
+            "responses": ["Advanced Diploma in Computer Applications, Accounting & Publishing"]
+        },
+        {
+            "tag": "query218",
+            "patterns": ["What about the internet connection in NIELIT"],
+            "responses": [" All the computers are connected with a High Speed Internet connection"]
+        },
+        {
+            "tag": "query219",
+            "patterns": ["What's it like to be a first-year student in NIELIT"],
+            "responses": ["No results found"]
+        },
+        {
+            "tag": "query220",
+            "patterns": ["Is placement available in NIELIT"],
+            "responses": ["https://nielit.gov.in/guwahati/content/placement-1"]
+        },
+        {
+            "tag": "query221",
+            "patterns": ["Is the college washroom /toilet need and tidy"],
+            "responses": ["Yes"]
+        },
+        {
+            "tag": "query222",
+            "patterns": ["What day order is it today"],
+            "responses": [""]
+        },
+        {
+            "tag": "query223",
+            "patterns": ["What is the year of establishment"],
+            "responses": ["\u201cNIELIT Guwahati\u201d is in operation w.e.f. 5th August\u20191998, in the name & style of \u201cCEDTI Tezpur\u201d after signing of an MOU between Tezpur University & erstwhile Dept. of Electronics, Govt. of India"]
+        },
+        {
+            "tag": "query224",
+            "patterns": ["Is NIELIT a private or a government Institution"],
+            "responses": ["Government Institution, National Institute of Electronics and Information Technology (NIELIT) is an autonomous scientific society under the administrative control of Ministry of Electronics and Information Technology (MeitY), Government of India. NIELIT is actively engaged in Capacity Building and Skill Development in the areas of Information Technology (IT); Electronics; Communication Technologies; Hardware; Cyber Law; Cyber Security; Geographic Information System (GIS); Cloud Computing; Electronics System Design & Manufacturing (ESDM); e-Waste; Internet of Things (IoT); Big Data; Block Chain; Data Analytics; e-Governance and related verticals. It offers courses both in Formal as well as Non-Formal Sectors and is also one of the National Examination Bodies"]
+        },
+        {
+            "tag": "query225",
+            "patterns": ["what are the short term courses"],
+            "responses": [" Course on Computer Concept (CCC),  Web Designing, Tally & Financial Accounting"]
+        },
+        {
+            "tag": "query226",
+            "patterns": ["what are the long term courses"],
+            "responses": ["\u2018O\u2019 Level\u2019 in IT / Bioinformatics/ CHM, \u2018A\u2019 Level in IT / Bioinformatics/ CHM"]
+        },
+        {
+            "tag": "query227",
+            "patterns": ["Is NIELIT a government Institution"],
+            "responses": ["NIELIT is an autonomous group of institutions under the administrative control of Ministry of Electronics & Information Technology (MoE&IT), Government of India."]
+        },
+        {
+            "tag": "query228",
+            "patterns": ["How can I get admission in NIELIT"],
+            "responses": ["Please visit our web site https://nielit.gov.in/guwahati/content/online-courses-0"]
+        },
+        {
+            "tag": "query229",
+            "patterns": ["What is the full form of NIELIT"],
+            "responses": ["The Full Form of NIELIT is National Institute of Electronics and Information Technology"]
+        },
+        {
+            "tag": "query230",
+            "patterns": ["Is NIELIT exam tough"],
+            "responses": [""]
+        },
+        {
+            "tag": "query231",
+            "patterns": ["Which computer course is best for job"],
+            "responses": ["Cloud Computing, IoT, Data Science /Analytics, Blockchain, Bioinformatics etc. We are in the process of executing many collaborative activities that may benefit the region and the nation"]
+        },
+        {
+            "tag": "query232",
+            "patterns": ["NIELIT campus"],
+            "responses": ["Guwahati, Khanapara, Tezpur, Jorhat, Majuli, Kokrajhar, Silchar and Dibrugarhr Extension Centre"]
+        },
+        {
+            "tag": "query233",
+            "patterns": ["Modes of education"],
+            "responses": ["Full-time"]
+        },
+        {
+            "tag": "query234",
+            "patterns": ["Number of courses offered"],
+            "responses": ["50 and above"]
+        },
+        {
+            "tag": "query235",
+            "patterns": ["Scholarships types"],
+            "responses": ["Protsahan Puraskar Scheme (erstwhile Scholarship Scheme) for SC/ST/physically handicapped and female students"]
+        },
+        {
+            "tag": "query236",
+            "patterns": ["Official website"],
+            "responses": ["\t\nwww.nielit.gov.in/guwahati/"]
+        },
+        {
+            "tag": "query237",
+            "patterns": ["Application mode (when admission are open)"],
+            "responses": ["online mode"]
+        },
+        {
+            "tag": "query238",
+            "patterns": ["How many courses are offered at NIELIT Guwahati"],
+            "responses": ["NIELIT Guwahati offers more than 20 courses in Software and IT stream"]
+        },
+        {
+            "tag": "query239",
+            "patterns": [" How to access NIELIT E-Learning portal"],
+            "responses": ["It can be directly accessed through URL 'econtent.nielit.gov.in'"]
+        },
+        {
+            "tag": "query240",
+            "patterns": [" What documents are to be attached with the registration form"],
+            "responses": ["No Need to attach and send the documents. It has been provided in the declaration for the candidates that if a candidate fills any wrong/inaccurate information in online application form, then the candidate will be responsible for further legal or other consequences"]
+        },
+        {
+            "tag": "query241",
+            "patterns": ["How much is the registration fee"],
+            "responses": ["One time non refundable registration fee is Rs 500 at any level and should be paid through CSCs and online method"]
+        },
+        {
+            "tag": "query242",
+            "patterns": ["What to do if the application is rejected"],
+            "responses": ["If the application is rejected due to any reason, the candidate be given a chance to rectify the deficiencies by complying with the required document within a scheduled time period"]
+        },
+        {
+            "tag": "query243",
+            "patterns": ["What is the total fee for CCC course"],
+            "responses": ["The total fee is Rs 4,631"]
+        },
+        {
+            "tag": "query244",
+            "patterns": ["How to contact NIELIT Guwahati"],
+            "responses": ["One can call NIELIT Guwahati\u2019s main centre at 0361-2730269 / 2731940"]
+        },
+        {
+            "tag": "query245",
+            "patterns": ["Eligibility for the scholarship"],
+            "responses": ["Candidates must clear the papers in the first attempt, The income of the parents of the student from all sources should not be more than Rs 1 LPA"]
+        },
+        {
+            "tag": "query246",
+            "patterns": ["Candidate has to apply for the scholarship along with the following documents"],
+            "responses": ["Proof of registration/op-gradation, Proof of passing the examination of the relevant  level, Proof of pursuing O/A/B/C level as full-time courses, Proof of income"]
+        },
+        {
+            "tag": "query247",
+            "patterns": ["Short-term courses eligibility criteria"],
+            "responses": ["Class 12 with a basic understanding of computer"]
+        },
+        {
+            "tag": "query248",
+            "patterns": ["Short-term course fee(in Rs.)"],
+            "responses": ["The Centre offers a very comprehensive set of courses in almost all the areas of Electronics and IT. We offer courses in areas like Embedded Systems, VLSI, Power Electronics, Process Control and Instrumentation, CAD/ CAM and Information Technology. \nRs. 4612 for more info please visit https://nielit.gov.in/calicut/guwahati/content/course-calendar\nSpecial batches and custom training in these fields  can be organized on request. Please write to mailto :  trng@calicut.nielit.in. "]
+        },
+        {
+            "tag": "query249",
+            "patterns": ["Advanced Diploma Eligibility Criteria"],
+            "responses": ["Class 12 with knowledge of basic computer and internet"]
+        },
+        {
+            "tag": "query250",
+            "patterns": ["Advanced Diploma course fee(in Rs.)10861"],
+            "responses": ["Rs. 10861 for more info please visit https://nielit.gov.in/calicut/guwahati/content/course-calendar"]
+        },
+        {
+            "tag": "query251",
+            "patterns": ["Diploma Eligibility Criteria"],
+            "responses": ["Class 12 with knowledge of basic computer and internet"]
+        },
+        {
+            "tag": "query252",
+            "patterns": ["Diploma course fee(in Rs.)"],
+            "responses": ["Rs. 41092 for more info please visit https://nielit.gov.in/calicut/guwahati/content/course-calendar"]
+        },
+        {
+            "tag": "query253",
+            "patterns": ["Long-Term \u2018O\u2019 Level\u2019 in IT / Bioinformatics/ CHM Courses Eligibility Criteria "],
+            "responses": ["Class 12 in required subject / one-year ITI certificate after Class 10"]
+        },
+        {
+            "tag": "query254",
+            "patterns": ["Long-Term \u2018O\u2019 Level\u2019 in IT / Bioinformatics/ CHM Courses Fee "],
+            "responses": ["23,000-65,000"]
+        },
+        {
+            "tag": "query255",
+            "patterns": ["Long-Term \u2018A\u2019 Level in IT / Bioinformatics/ CHM Eligibility Criteria"],
+            "responses": ["O level / Graduate in required subject"]
+        },
+        {
+            "tag": "query256",
+            "patterns": ["Long-Term \u2018A\u2019 Level\u2019 in IT / Bioinformatics/ CHM Courses Fee "],
+            "responses": ["23,000-65,000"]
+        },
+        {
+            "tag": "query257",
+            "patterns": ["What are the admission process for certificate, diploma and advanced diploma programmes offered by NIELIT Guwahati"],
+            "responses": ["NIELIT Guwahati admission is based on the merit of the previous qualifying degree/exam, The application mode is completely online"]
+        },
+        {
+            "tag": "query258",
+            "patterns": ["Gender intake"],
+            "responses": ["Co-education"]
+        },
+        {
+            "tag": "query259",
+            "patterns": ["About Regular courses"],
+            "responses": ["Regular courses are starting from Digital Literacy courses (ACC, BCC, CCC, etc.) to Higher courses (O/A/B -levels)"]
+        },
+        {
+            "tag": "query260",
+            "patterns": ["What is the vision of NIELIT"],
+            "responses": ["To be the leader in the development of industry oriented quality education and training and be the country's premier Institution for examination and certification in the field of Information, Electronics and Communications Technology (IECT)"]
+        },
+        {
+            "tag": "query261",
+            "patterns": ["What is the mission of NIELIT"],
+            "responses": ["To be the single source for quality assurance in computer education among the nation's non-formal institutes, After turning out competent IT professionals in large numbers, NIELIT reach is now being extended to all regions of the country as well as overseas."]
+        },
+        {
+            "tag": "query262",
+            "patterns": ["Organization structure of NIELIT"],
+            "responses": ["https://nielit.gov.in/guwahati/content/organization-structure-1"]
+        },
+        {
+            "tag": "query263",
+            "patterns": ["Acts and rules of NIELIT"],
+            "responses": ["https://nielit.gov.in/guwahati/content/acts-rules"]
+        },
+        {
+            "tag": "query264",
+            "patterns": ["Policies and Guidelines of NIELIT"],
+            "responses": ["https://nielit.gov.in/guwahati/content/policies-and-guidelines"]
+        },
+        {
+            "tag": "query265",
+            "patterns": ["NIELIT Recognition"],
+            "responses": ["https://nielit.gov.in/guwahati/content/recognition-0"]
+        },
+        {
+            "tag": "query266",
+            "patterns": ["Nielit Infrastructure"],
+            "responses": ["https://nielit.gov.in/guwahati/content/infrastructure-3"]
+        },
+        {
+            "tag": "query267",
+            "patterns": ["How to apply"],
+            "responses": ["https://nielit.gov.in/content/how-apply-1"]
+        },
+        {
+            "tag": "query268",
+            "patterns": ["Apply Online"],
+            "responses": ["https://nielit.gov.in/content/welcome-nielit-online-registration-facility"]
+        },
+        {
+            "tag": "query269",
+            "patterns": ["Do NIELIT have internship facility"],
+            "responses": ["Yes, NIELIT has a centralised online placement portal that facilitates placements and internship facilities to its students"]
+        },
+        {
+            "tag": "query270",
+            "patterns": ["View Examination result"],
+            "responses": ["https://nielit.gov.in/content/results-0"]
+        },
+        {
+            "tag": "query271",
+            "patterns": ["Registration Queries"],
+            "responses": [""]
+        },
+        {
+            "tag": "query272",
+            "patterns": ["Why a candidate is required to register with NIELIT"],
+            "responses": ["Registration is a mandatory pre-requisite for appearing in the O/A/B/C level Examinations conducted by the NIELIT"]
+        },
+        {
+            "tag": "query273",
+            "patterns": ["Can a candidate register for more than one level at a time"],
+            "responses": ["No, at any point of time, a candidate can hold a valid registration, for one Level only"]
+        },
+        {
+            "tag": "query274",
+            "patterns": ["How can a candidate get registered with the NIELIT"],
+            "responses": ["Steps are 1. Click on \u2018Apply Online\u2019 at http://student.nielit.gov.in, 2. Select the Certificate Course \u2018O/A\u2019/B/C\u2019, 3.Fill Registration Application Form, 4. Upload your Photograph, Signature and Thumb Impression, 5. Submit Registration Form, 6. Note down Unique Application No., 7. Take Print Out of Application Form for future use, 8. Pay Registration Fess through Online Payment Option (CSC-SPV, NEFT/RTGS, Online)(if payment option selected is \u2018Candidate directly to NIELIT\u2019)"]
+        },
+        {
+            "tag": "query275",
+            "patterns": ["Pay Registration fee Online"],
+            "responses": ["https://student.nielit.gov.in/"]
+        },
+        {
+            "tag": "query276",
+            "patterns": ["What are the documents to be attached with registration form"],
+            "responses": ["No Need to send the documents. We have provided the declaration for the candidates that if candidate filled any wrong/inaccurate information in Online Registration Application form then candidate will be responsible for further legal or other consequences"]
+        },
+        {
+            "tag": "query277",
+            "patterns": ["How do I check the status of my Registration Application to any course"],
+            "responses": ["Registration application status can be checked in the online student Portal http://student.nielit.gov.in by supplying the Registration Application No. received during the filling up the Online Registration Application Form (ORAF)"]
+        },
+        {
+            "tag": "query278",
+            "patterns": ["do get select my accredited institute while filling-up of Online Registration Application Form"],
+            "responses": ["While filling the Online Registration Application Form, the list of valid accredited institutes are available in the online form, the student can select the appropriate accredited institute from the list"]
+        },
+        {
+            "tag": "query279",
+            "patterns": ["What are the steps to be followed while filling up Online Registration Application Form"],
+            "responses": ["The steps are defined or available in the Registration Guideline deployed on the Online Student Portal http://student.nielit.gov.in"]
+        },
+        {
+            "tag": "query280",
+            "patterns": [" How much is the registration fee"],
+            "responses": ["One time non refundable Registration fee is Rs.500/- at any Level and should be paid through CSCs and online method"]
+        },
+        {
+            "tag": "query281",
+            "patterns": ["How can I know whether my application has been considered or not"],
+            "responses": ["List of newly registered candidate is made available at our student portal, http://student.nielit.gov.in from August and February onwards for January and July exams respectively. Candidate can see/check your registration application status from time to time on clicking on \u2018Certification/Courses => level=> Check Application Status by entering application no. and date of birth in the student portal"]
+        },
+        {
+            "tag": "query282",
+            "patterns": [" My registration application was rejected(Kept -in-Abeyance), what to do next"],
+            "responses": ["If your registration application was rejected due to any deficiency, you will be given a chance to rectify the deficiencies by complying with the required document within a scheduled time period. To re-consider your application, submit the necessary compliance through email at regn@nielit.gov.in or by post"]
+        },
+        {
+            "tag": "query283",
+            "patterns": ["Can I get the registration fee back, in case my application is rejected"],
+            "responses": ["One time non refundable Registration fee is the charges against the Registration Application process. One time non refundable Registration fee is neither refundable nor adjustable against any other payments/purpose"]
+        },
+        {
+            "tag": "query284",
+            "patterns": ["If I missed the last date of registration, can I go for the same by paying some late fee or penalty"],
+            "responses": ["There is no such provision as yet"]
+        },
+        {
+            "tag": "query285",
+            "patterns": ["I have cleared first 10 papers of B level. Can I get \u201cA\u201d level certificate"],
+            "responses": ["Yes, \u201cA\u201d level is a sub-set of \u201cB\u201d Level and you can get \u201cA\u201d Level certificate after clearing theory papers , practical and project corresponding to \u201cA\u201d level under \u201cB\u201d level syllabus"]
+        },
+        {
+            "tag": "query286",
+            "patterns": ["What are the different methods of making payment for Registration"],
+            "responses": ["There are three methods available:\n   (i) Online : Net Banking, Debit Card, Credit Card.\n   (ii) CSC-SPV .\n   (iii) NEFT/RTGS ."]
+        },
+        {
+            "tag": "query287",
+            "patterns": ["I do not have credit/debit cards. How can I make the payment"],
+            "responses": ["You pay the fee at any CSC (Common Service Centre) who can make payment on behalf of you. After filling the registration form, you get a Demand note Number for use the facility"]
+        },
+        {
+            "tag": "query288",
+            "patterns": ["How do I pay the registration fees on-line"],
+            "responses": ["Payment of registration fees through internet banking is permitted"]
+        },
+        {
+            "tag": "query289",
+            "patterns": ["Can I use internet banking"],
+            "responses": ["You can make payment of registration fees by using Net Banking available under Pay Online option"]
+        },
+        {
+            "tag": "query290",
+            "patterns": ["Can I make payment of Registration fees by DD along with online forms"],
+            "responses": ["No. Payment of registration fees by DD is not permitted along with online forms. You have to make online payment by using credit/debit cards/net banking/CSC Services only"]
+        },
+        {
+            "tag": "query291",
+            "patterns": ["How an institute can make a payment for group of candidates together"],
+            "responses": ["The institute is required to login in the NIELIT Portal, http://student.nielit.gov.in and login in the Institute Login Page, Click on option Pending payment and verification of the Registration Application Form. In the next window, Select the candidates via check box and click on make payment. After that a demand note will be generated for these candidates and then payment can be made using any of payment method"]
+        },
+        {
+            "tag": "query292",
+            "patterns": ["I have finally submitted Online Registration Application within Cut-off date through Institute. Can institute verify and make payment after that"],
+            "responses": ["As per the Student Portal, institute can verify their candidates and make fee payment only within the Cut-off date even if you have submitted application on last day. Institute will be online dispatch the Online Registration Form within the Cut-off date of Registration"]
+        },
+        {
+            "tag": "query293",
+            "patterns": ["I have been registered through an Accredited Institute, Can I pay my registration fee myself/ directly"],
+            "responses": ["Yes, you can pay the fees yourself by selecting the options in the section Fill the registration Details of the registration form"]
+        },
+        {
+            "tag": "query294",
+            "patterns": ["Can I choose the Accredited Institute option without contact the institute"],
+            "responses": ["You will be contact the accredited institute before filling of online registration/Re-registration/ Transfer of Registration application form"]
+        },
+        {
+            "tag": "query295",
+            "patterns": ["How can I Transfer my Registration from one level to another"],
+            "responses": ["For transfer of Registration the candidate has to filled the online Registration application form (after creation of user login at www.student.nielit.gov.in) duly completed indicating the current Registration number and level along with all supporting documents and requisite fee.If the candidate has not cleared all the papers/practical/project as applicable to the level to which he/she is already Registered he/she will not be getting any benefits of the papers already cleared"]
+        },
+        {
+            "tag": "query296",
+            "patterns": ["What happens when a candidate applies for Registration at another level without qualifying all papers of a particular level at which he is already registered"],
+            "responses": ["For transfer of Registration the candidate has to filled the online Registration application form (after creation of user login at www.student.nielit.gov.in) duly completed indicating the current Registration number and level along with all supporting documents and requisite fee.If the candidate has not cleared all the papers/practical/project as applicable to the level to which he/she is already Registered he/she will not be getting any benefits of the papers already cleared"]
+        },
+        {
+            "tag": "query297",
+            "patterns": ["I am a direct candidate. Am I eligible to Register as direct candidate at the next higher level immediately after clearing the current level"],
+            "responses": ["To register at the next higher level, you have to fulfil the eligibility criteria for the next higher level at the time of seeking Registration with respect to educational qualification and experience"]
+        },
+        {
+            "tag": "query298",
+            "patterns": [" I am Registered for O/A/B level but yet to clear the level. Can I Register for the next higher level"],
+            "responses": ["If you are eligible for the next higher level you could get Registered for that level after cancelling the existing Registration number. However, you will not be given any chance to clear the left over paper of the previous level as your registration for the lower level will not be valid any more"]
+        },
+        {
+            "tag": "query299",
+            "patterns": ["I have cleared all theory papers of O/A/B level but left with practical papers. Am I eligible to Register for next higher Level"],
+            "responses": ["No. You have to clear all theory and practical papers as well as projects for shifting to the next higher Level"]
+        },
+        {
+            "tag": "query300",
+            "patterns": ["How to apply for transfer of registration from lower level to higher level "],
+            "responses": ["The Procedure for applying for transfer of level is similar to fresh registration but while applying for transfer of level, the candidate must create his / her User ID on Online Student Portal http://student.nielit.gov.in and must apply from user Dashboard"]
+        },
+        {
+            "tag": "query301",
+            "patterns": ["I have cleared all theory and practical papers but left with project. Can I Register for the next higher level"],
+            "responses": ["No. You have to clear all theory and practical papers as well as projects for shifting to the next higher Level"]
+        },
+        {
+            "tag": "query302",
+            "patterns": ["What is the validity period of Registration of different Levels"],
+            "responses": ["Registration for \u201cO\u201d and \u201cA\u201d level is valid for 10 (ten) consecutive examinations i.e. 5 years and \u201cB\u201d / \u201cC\u201d level is valid for 12 (Twelve) consecutive examinations i.e. 6 years"]
+        },
+        {
+            "tag": "query303",
+            "patterns": ["Is a candidate required to seek Registration for every Examination"],
+            "responses": ["No, Registration for each Examination is not required till the Registration number allotted for the level concerned is valid"]
+        },
+        {
+            "tag": "query304",
+            "patterns": ["What is the remedy if a candidate fails to qualify all papers within the validity period of the Registration"],
+            "responses": ["If a candidate fails to qualify all papers of a particular Level within the validity period of the Registration, he/she has to Re-Register and appear for the remaining papers. Validity of the Registration will then be extended for one time another full term i.e. 5/6 years to clear the left-out papers/project/practical\u2019s. One can apply for Re-Registration within a one year after the expiry of the validity of his/her registration"]
+        },
+        {
+            "tag": "query305",
+            "patterns": ["What is Re-Registration"],
+            "responses": ["If a candidate fails to qualify all papers of a particular Level within the validity period of the Registration, he/she has to Re-Register and appear for the remaining papers. Validity of the Registration will then be extended for one time another full term i.e. 5/6 years to clear the left-out papers/project/practical\u2019s. One can apply for Re-Registration within a one year after the expiry of the validity of his/her registration"]
+        },
+        {
+            "tag": "query306",
+            "patterns": ["Transfer of credit"],
+            "responses": ["If a candidate fails to qualify all papers of a particular Level within the validity period of the Registration, he/she has to Re-Register and appear for the remaining papers. Validity of the Registration will then be extended for one time another full term i.e. 5/6 years to clear the left-out papers/project/practical\u2019s. One can apply for Re-Registration within a one year after the expiry of the validity of his/her registration"]
+        },
+        {
+            "tag": "query307",
+            "patterns": ["How can a candidate get Re-Registered"],
+            "responses": ["If a candidate fails to qualify all papers of a particular Level within the validity period of the Registration, he/she has to Re-Register and appear for the remaining papers. Validity of the Registration will then be extended for one time another full term i.e. 5/6 years to clear the left-out papers/project/practical\u2019s. One can apply for Re-Registration within a one year after the expiry of the validity of his/her registration"]
+        },
+        {
+            "tag": "query308",
+            "patterns": ["What is the impact of Re-Registration on the papers already qualified"],
+            "responses": ["If a candidate fails to qualify all papers of a particular Level within the validity period of the Registration, he/she has to Re-Register and appear for the remaining papers. Validity of the Registration will then be extended for one time another full term i.e. 5/6 years to clear the left-out papers/project/practical\u2019s. One can apply for Re-Registration within a one year after the expiry of the validity of his/her registration"]
+        },
+        {
+            "tag": "query309",
+            "patterns": ["What are components to be cleared during the validity period of Registration"],
+            "responses": [" All theory papers, all applicable practical papers and projects will have to be cleared during the validity period of Registration No"]
+        },
+        {
+            "tag": "query310",
+            "patterns": ["How to apply for Re-registration in O/A/B/C level"],
+            "responses": ["The Procedure for applying for Re-registration is similar to fresh registration but while applying for re-registration the candidate must create his / her User ID on Online Student Portal http://student.nielit.gov.in"]
+        },
+        {
+            "tag": "query311",
+            "patterns": ["When Can I do the Re-registration"],
+            "responses": ["The candidate must apply for re-registration within one year after expiry of validity period of Registration"]
+        },
+        {
+            "tag": "query312",
+            "patterns": ["Is Registration No. should be active for clearing any projects"],
+            "responses": ["To clear any projects or practical or any theory papers, Registration No. must be live or active"]
+        },
+        {
+            "tag": "query313",
+            "patterns": ["What should I do when the validity period of my Registration No. has expired"],
+            "responses": ["If you have not availed the one time Re-registration option, you can apply for re-registration within one year of expiry of validity period of Registration No"]
+        },
+        {
+            "tag": "query314",
+            "patterns": ["After doing Re-registration, How long will be validity period of Registration No."],
+            "responses": ["Re-registration will give you another full term validity period of that particular level i.e For O and A level \u2013 5 years and B and C level \u2013 6 years "]
+        },
+        {
+            "tag": "query315",
+            "patterns": ["What is a last date for Fresh/Re-Registration/Transfer of Registration"],
+            "responses": ["Registration is open throughout the year, however cut off dates are there to process Registration for a particular examination are as under:-\n\nLevel\tCut-off Dates                                                                                                                                                                                                                                                                                                                                           January Exams                                 July Exams\n\nO Level   Preceding 30th June    Preceding 31st December\n\nA/B/C Levels  Preceding 31st July   Preceding 31st January"]
+        },
+        {
+            "tag": "query316",
+            "patterns": ["How can I change the level of Registration without clearing of current level"],
+            "responses": ["For changing the level without clearing of current level, the candidate has to register afresh inside your online user ID dashboard on http://student.nielit.gov.in"]
+        },
+        {
+            "tag": "query317",
+            "patterns": ["How to change my name in your database"],
+            "responses": ["Send plain application in case of surname change consequent upon marriage of female candidate. Submit affidavit signed in front of Oath Commissioner or a First Class Magistrate/Executive Magistrate, in case change in name on own volition. Requests for change of name based on Notary affidavits or Newspaper advertisement alone shall not be accepted"]
+        },
+        {
+            "tag": "query318",
+            "patterns": ["How to get correction/addition done in my various particulars like Name / Father\u2019s name/ Mother\u2019s name/ e-mail Id/ Phone numbers/ Date of Birth"],
+            "responses": ["Send application in the prescribed formats available at:   Click Here  along with copy of relevant certificate(s)"]
+        },
+        {
+            "tag": "query319",
+            "patterns": ["How to get my address changed"],
+            "responses": ["Send an application in the prescribed format available at: Click Here \n Please note that, request send for change of address of candidates by accredited institute will not be considered"]
+        },
+        {
+            "tag": "query320",
+            "patterns": ["I am yet to get any I-card issued to me by the NIELIT"],
+            "responses": ["Send an application to the NIELIT quoting your Registration number. Further, the candidate may send a separate application to change/correct the address, if it has been changed since he/she has Registered with the NIELIT"]
+        },
+        {
+            "tag": "query321",
+            "patterns": ["I have lost my I-card. How can I get a duplicate I-card"],
+            "responses": ["For issuing of duplicate I-card, apply to NIELIT with the following documents:\n\nRequest on a plain paper mentioning your Registration number with a copy F.I.R. of the lost Candidate\u2019s Identity Card (CIC) in case of lost CIC and a Demand Draft of Rs.100/- favouring NIELIT, Payable at New Delhi. Please write your Registration Number and Name in Capital Letters in the backside of the DD without fail, which should have a validity of Three months"]
+        },
+        {
+            "tag": "query322",
+            "patterns": ["I have lost my I-card. How can I get a duplicate I-card"],
+            "responses": ["in case of Faulty /mutilation of I-Card, Please Surrender the Mutilated/ Faulty CIC in original issued to you with a request. \n\nFurther, the candidate may send a different application to change/correction of the address, if it has been changed since he/she has registered with the NIELIT"]
+        },
+        {
+            "tag": "query323",
+            "patterns": ["I am yet to get the I-card/CIC from the NIELIT. The exam is nearer. How can I be allowed to give the exam"],
+            "responses": ["Identity Cards will be issued to all newly Registered candidates , If for any reason, a candidate did not get the I-card till the examination, he/she can take along with him/herself any valid government issued photo I-card like Aadhaar Card, Driving License, Passport, Pan Card, Voter I-card etc to the examination hall as your identity proof.\nIf the candidates don\u2019t possess any of the above said cards, he/she can take the identity card issued by the accredited institute, provided it bears the photograph of the candidate and seal and sign of the competent authority of the institute"]
+        },
+        {
+            "tag": "query324",
+            "patterns": ["Is the courses offered by the NIELIT, are recognized by the Government"],
+            "responses": ["Yes, Level O/A/B is duly recognized by Govt.of India. Please visit For (O/A) Level, For (B Level) and For (C Level)..\n Recognition of C level is under process"]
+        },
+        {
+            "tag": "query325",
+            "patterns": ["What are the fees to be paid to the NIELIT for different purposes"],
+            "responses": ["You have to pay fees for different purpose as follows:\n Registration, any level (By CSCs and Online method): Rs. 500/-\n Examination: Rs.500/- X no. of papers + Rs. 100/- (Application Processing Charge) \n Practical (per practical): Rs 300/-\n Practical (per practical): Rs 300/-\n Project: O level: Only project Completion Certificate, No fees\n A Level: Rs.500/-\n B/ C Level: Rs.3000/-"]
+        },
+        {
+            "tag": "query326",
+            "patterns": ["Where can I get any institute accredited by NIELIT, in my locality"],
+            "responses": ["We have more than thousands accredited institutes for quality education all over India and abroad. You may find the institutes from student portal, http://student.nielit.gov.in => search Institutes => states/district and visit them to decide which one to join"]
+        },
+        {
+            "tag": "query327",
+            "patterns": ["We have more than thousands accredited institutes for quality education all over India and abroad. You may find the institutes from student portal, http://student.nielit.gov.in => search Institutes => states/district and visit them to decide which one to join"],
+            "responses": ["There is no course material for any of our courses. However, you can read/download syllabus at http://www.nielit.gov.in/guideline_exam.htm"]
+        },
+        {
+            "tag": "query328",
+            "patterns": ["What are the E-mail IDs to be contacted for different purposes"],
+            "responses": ["Related to Project of (O/A/B/C)       projects@nielit.gov.in \n\nRelated to Exam Query (O/A/B/C)    exam@nielit.gov.in \n\nRelated to Exam Query ( CCC)        ccc@nielit.gov.in \n\nRelated to Registration         regn@nielit.gov.in\n\nRelated to Accreditation of  institutes     accr@nielit.gov.in\n\nRelated to Certificate    certificate@nielit.gov.in\n\nRelated to Practical Examinations     prexam@nielit.gov.in\n\nRelated to Finance/ Fees     accounts@nielit.gov.in"]
+        },
+        {
+            "tag": "query329",
+            "patterns": ["Where to contact for the Bio-Informatics Course"],
+            "responses": ["Please contact the Bio-informatics nodal centre at the given address: \nNIELIT , Jadhavpur University Campus, Kolkata, 700032\n\nPhones:\n033-24146054 (Direct)\n033-24146081 / 24146682\n033-24123231\n033-24146549 (FAX)E-mails:\nE-mails: kolkata@nielit.gov.in\ndir-kolkata@nielit.gov.in\nWebsite: http://kolkata.nielit.gov.in "]
+        },
+        {
+            "tag": "query330",
+            "patterns": ["Where to contact for the Hardware Course"],
+            "responses": ["Please contact the nodal centre at the given address for Hardware course: \nNIELIT, Dr. BAM University Campus \nAurangabad-431004\n\nPhones:\n0240-2982021 [D] , 0240-2982022\n0240-2982050 (FAX) \nE-mails: aurangabad@nielit.gov.in, dir-aurangabad@nielit.gov.in\nWeb-site: http://aurangabad.nielit.gov.in"]
+        },
+        {
+            "tag": "query331",
+            "patterns": ["What is the communication address of the NIELIT HQ"],
+            "responses": [" Address to contact NIELIT is:\nNIELIT Bhawan,\nPlot No. 3, PSP Pocket, Sector-8,\nDwarka, New Delhi-110077,\nHelpline No. (Toll Free) - 1800116511\nPhone:- 91-11-2530 8300 with 29 lines\nEmail:- contact@nielit.gov.in"]
+        },
+        {
+            "tag": "query332",
+            "patterns": ["Equivalence of NIELIT Courses"],
+            "responses": [""]
+        },
+        {
+            "tag": "query333",
+            "patterns": ["NIELIT 'A' level (IT) course is equal to Government recognized PGDCA (Post Graduate Diploma in Computer Application)"],
+            "responses": ["NIELIT is not an authority to grant equivalence of its courses with other courses.\n\n'A' Level (IT) was earlier recognized by MHRD, Department of Education vide notification no. (43) dated 01.03.95  as equivalent to Advanced Diploma for purpose of employment to posts and services in Government of India (http://www.nielit.gov.in/sites/default/files/anot01.jpg)  \n\nLater on, after the issuance of OM No. F.No 11-15/2011-AR (TS.II) dated 06.12.2012 from MHRD, Government of India (http://www.nielit.gov.in/sites/default/files/headquarter/memo_jobs.pdf)\n\nNIELIT has aligned its 'A' LEvel (IT) Course with NSQF at Level 6 in IT/ITeS sector (https://www.nqr.gov.in/qualification-title?field_qualification_title__value=A%20level&field_anticipated_volume_of_trai_value=all&sector=all&level=all&job_des=all&nid=2843)\n\nDetails related to recognition etc. available on http://www.nielit.gov.in/content/level-recognition"]
+        },
+        {
+            "tag": "query334",
+            "patterns": ["Is B.Sc.(IT/CS)/BCA/MCA/MBA (IT)/B.Tech (CS/IT)/MCA degree courses are higher or equivalent of NIELIT 'A' level (IT) of NIELIT"],
+            "responses": ["NIELIT is not an authority to grant equivalence of its courses with other courses.\n\n'A' Level (IT) was earlier recognized by MHRD, Department of Education vide notification no. (43) dated 01.03.95  as equivalent to Advanced Diploma for purpose of employment to posts and services in Government of India (http://www.nielit.gov.in/sites/default/files/anot01.jpg)  \n\nLater on, after the issuance of OM No. F.No 11-15/2011-AR (TS.II) dated 06.12.2012 from MHRD, Government of India (http://www.nielit.gov.in/sites/default/files/headquarter/memo_jobs.pdf)\n\nNIELIT has aligned its 'A' LEvel (IT) Course with NSQF at Level 6 in IT/ITeS sector (https://www.nqr.gov.in/qualification-title?field_qualification_title__value=A%20level&field_anticipated_volume_of_trai_value=all&sector=all&level=all&job_des=all&nid=2843)\n\nDetails related to recognition etc. available on http://www.nielit.gov.in/content/level-recognition"]
+        },
+        {
+            "tag": "query335",
+            "patterns": ["Is Engineering graduate (4 year course duration) is equivalent to 'A' level course of NIELIT"],
+            "responses": ["NIELIT is not an authority to grant equivalence of its courses with other courses.\n\n'A' Level (IT) was earlier recognized by MHRD, Department of Education vide notification no. (43) dated 01.03.95  as equivalent to Advanced Diploma for purpose of employment to posts and services in Government of India (http://www.nielit.gov.in/sites/default/files/anot01.jpg)  \n\nLater on, after the issuance of OM No. F.No 11-15/2011-AR (TS.II) dated 06.12.2012 from MHRD, Government of India (http://www.nielit.gov.in/sites/default/files/headquarter/memo_jobs.pdf)\n\nNIELIT has aligned its 'A' LEvel (IT) Course with NSQF at Level 6 in IT/ITeS sector (https://www.nqr.gov.in/qualification-title?field_qualification_title__value=A%20level&field_anticipated_volume_of_trai_value=all&sector=all&level=all&job_des=all&nid=2843)\n\nDetails related to recognition etc. available on http://www.nielit.gov.in/content/level-recognition"]
+        },
+        {
+            "tag": "query336",
+            "patterns": ["M.Tech.(CS/IT/EC) is equivalent to NIELIT A/B/C level course of NIELIT"],
+            "responses": ["NIELIT is not an authority to grant equivalence of its courses with other courses.\n\n'A' Level (IT) was earlier recognized by MHRD, Department of Education vide notification no. (43) dated 01.03.95  as equivalent to Advanced Diploma for purpose of employment to posts and services in Government of India (http://www.nielit.gov.in/sites/default/files/anot01.jpg)  \n\nLater on, after the issuance of OM No. F.No 11-15/2011-AR (TS.II) dated 06.12.2012 from MHRD, Government of India (http://www.nielit.gov.in/sites/default/files/headquarter/memo_jobs.pdf)\n\nNIELIT has aligned its 'A' LEvel (IT) Course with NSQF at Level 6 in IT/ITeS sector (https://www.nqr.gov.in/qualification-title?field_qualification_title__value=A%20level&field_anticipated_volume_of_trai_value=all&sector=all&level=all&job_des=all&nid=2843)\n\nDetails related to recognition etc. available on http://www.nielit.gov.in/content/level-recognition"]
+        },
+        {
+            "tag": "query337",
+            "patterns": [" Whether,  NIELIT  \u2018B\u2019  level  (IT) Course is equivalent to Government recognized Master of Computer Application (MCA) degree"],
+            "responses": ["B'  level (IT) was earlier recognized by MHRD, Department of Secondary & Higher Education vide notification no (54) dated 26.9.2000 as for purpose of employment under Central Government where MCA is desired qualification (http://www.nielit.gov.in/sites/default/files/bnot01.jpg).\n\nLater on after the issuance of OM No F.No 11-15/2011-AR (TS.II) dated 06.12.2012 from MHRD,  Government of India  (http://www.nielit.gov.in/sites/default/files/headquarter/memo_jobs.pdf )\n\nNIELIT has aligned its B level (IT) with NSQF (National Skill Qualification Framework) at level -7 in IT/ITes sector (https://www.nqr.gov.in/qualification-title?field_qualification_title__value=b%20level&field_anticipated_volume_of_trai_value=all&sector=25&level=all&job_des=all&nid=3101).\n\nDetails related to recognition etc. available on website link http://www.nielit.gov.in/content/b-level-recognition"]
+        },
+        {
+            "tag": "query338",
+            "patterns": ["After completion of NIELIT \u2018A\u2019 Level (IT) course, lateral entry to second year of MCA degree is allowed"],
+            "responses": ["Entry level / Lateral Entry to any course is granted by respective University / Organization / Institute and NIELIT has no role in this"]
+        },
+        {
+            "tag": "query339",
+            "patterns": ["Whether I am eligible for Ph.D. in computer Science after getting NIELIT \u2018C\u2019 level (IT) Course"],
+            "responses": ["Entry level / Lateral Entry to any course is granted by respective University / Organization / Institute and NIELIT has no role in this"]
+        },
+        {
+            "tag": "query340",
+            "patterns": ["What is Course on Computer Concepts (CCC)"],
+            "responses": ["The computer literacy programme of the Society is an outcome of the recommendation of National Task Force on Information Technology and Software Development. This course is designed to aim at imparting a basic level IT Literacy programme for the common man.  This programme has essentially been conceived with an idea of giving an opportunity to the common man to attain computer literacy thereby contributing to increased and speedy PC penetration in different walks of life. After completing the course the incumbent should be able to the use the computer for basic purposes of preparing his/her personal/business letters, viewing information on internet (the web), receiving and sending mails, preparing his business presentations, preparing small databases etc. This helps the small business communities, housewives, etc. to maintain their small accounts using the computers and enjoy in the world of Information Technology. This course is, therefore, designed to be more practical oriented."]
+        },
+        {
+            "tag": "query341",
+            "patterns": ["What is the detailed syllabus of CCC"],
+            "responses": ["The detailed syllabus is available on NIELIT website i.e. http://www.nielit.gov.in/content/digital-literacy-courses"]
+        },
+        {
+            "tag": "query342",
+            "patterns": ["What is duration of CCC Course"],
+            "responses": ["Normally the CCC course duration is 80 hours (Theory: 25 hrs + Practical: 50 hrs. + Tutorial: 5 hrs.)"]
+        },
+        {
+            "tag": "query343",
+            "patterns": ["What are the eligibility criteria for CCC Course"],
+            "responses": ["The candidates can appear in the NIELIT CCC Examination either through NIELIT approved Institutes which are permitted to conduct CCC Course and having obtained E-Provisional no. / Registration no. or as Direct applicant irrespective of any educational qualifications"]
+        },
+        {
+            "tag": "query344",
+            "patterns": ["What is the minimum age required for applying for CCC Examination"],
+            "responses": ["Since this is a course on computer appreciation, there is no minimum or maximum age limit for applying for CCC Examination"]
+        },
+        {
+            "tag": "query345",
+            "patterns": ["How to apply in the CCC Examination"],
+            "responses": ["The candidates can apply for the CCC examination through online mode only. The candidate can apply for the CCC examination through online facility of examination form and fee submission offered by NIELIT. The URL for the student online portal is http://student.nielit.gov.in"]
+        },
+        {
+            "tag": "query346",
+            "patterns": ["What is the fee of CCC Examination"],
+            "responses": ["The examination fee is Rs 500.00 + Service tax as applicable"]
+        },
+        {
+            "tag": "query347",
+            "patterns": ["Can I submit the examination form of CCC with late fee and what is the late fee"],
+            "responses": ["No"]
+        },
+        {
+            "tag": "query348",
+            "patterns": ["What is the schedule of CCC examination"],
+            "responses": ["\nExamination  Time period for online filling of Examination form payment\tDate of Commencement of Examination\nFebruary        Nov 01- Dec 31                                                                           1st Saturday of February\n\nMarch            January 01-31                                                                             1st Saturday of March\n\nApril              February 01-28/29                                                                       1st Saturday of April\n\nMay               March 01-31                                                                                1st Saturday of May\n\nJune               April 01-30                                                                                   1st Saturday of June\n\nAugust           May 01 - June 30                                                                          1st Saturday of August\n\nSeptember     July 01-31                                                                                    1st Saturday of September\n\nOctober         August 01-31                                                                               1st Saturday of October\n\nNovember     September 01-30                                                                         1st Saturday of November\n\nDecember     October 01-31\t                                                                             1st Saturday of December"]
+        },
+        {
+            "tag": "query349",
+            "patterns": ["What documents need to be submitting along with the examination form"],
+            "responses": ["w.e.f 1-Feb-2014, no documents are required to be submit at NIELIT Centre"]
+        },
+        {
+            "tag": "query350",
+            "patterns": [" What is mode of Examination fee to be pay in case of Online Examination form"],
+            "responses": ["The candidate/institute make the payment through the following modes : -\n            i) Online (Credit/ Debit card/ Netbanking)\n            ii) NEFT\n            iii) CSC-SPV"]
+        },
+        {
+            "tag": "query351",
+            "patterns": ["Where I can submit the examination form"],
+            "responses": ["W.e.f 1-Feb-2014, there is no need to submit any documents/certificates at NIELIT Centres"]
+        },
+        {
+            "tag": "query352",
+            "patterns": ["From where can I get the details of Regional Centre"],
+            "responses": ["The details of Regional Centre vis-\u00e0-vis state are available on the website of NIELIT http://www.nielit.gov.in/student411ccc.htm."]
+        },
+        {
+            "tag": "query353",
+            "patterns": ["How many papers are there in CCC examination"],
+            "responses": ["Only 1 paper"]
+        },
+        {
+            "tag": "query354",
+            "patterns": ["What are the minimum marks required to qualify CCC successfully"],
+            "responses": [" 50% marks are the minimum marks required"]
+        },
+        {
+            "tag": "query355",
+            "patterns": ["What is the mode of examination"],
+            "responses": ["The examination is conducted in Online mode i.e. no pen/pencil/paper is required"]
+        },
+        {
+            "tag": "query356",
+            "patterns": ["How many questions to be attempt and what is the duration of examination"],
+            "responses": ["The examination of CCC comprise of 100 objective type questions of 1 mark each, and the candidate is required to attempt the 100 questions in 90 minutes. There is no negative marking"]
+        },
+        {
+            "tag": "query357",
+            "patterns": ["Where I can appear in the CCC Examination"],
+            "responses": ["Normally, the exam centres allotted to candidates is according to his/her centre choice (city) filled by the candidate. NIELIT have right to allot the other exam centre that has not filled by candidate"]
+        },
+        {
+            "tag": "query358",
+            "patterns": ["Can I submit more than 1 examination form in single exam cycle"],
+            "responses": ["No"]
+        },
+        {
+            "tag": "query359",
+            "patterns": ["Can I apply again for another CCC examination cycle, in case I failed to pass the CCC examination? Is there any limit to apply for CCC examination"],
+            "responses": [" Yes, you can apply again in other exam cycle. No, there is no limit yet"]
+        },
+        {
+            "tag": "query360",
+            "patterns": ["Can I apply again for another CCC examination cycle, in case I passed the CCC examination?"],
+            "responses": ["Yes, you can apply again in other exam cycle."]
+        },
+        {
+            "tag": "query361",
+            "patterns": ["How I can get the confirmation that my examination form has been processed"],
+            "responses": ["The Candidate can check the status at http://student.nielit.gov.in"]
+        },
+        {
+            "tag": "query362",
+            "patterns": ["From where do I get my Admit Card and what can I do, in case there is mistake in the admit card"],
+            "responses": ["The admit card can be downloaded from the student online portal http://student.nielit.gov.in. The admit card is according to details furnished by the candidates in OEAF. No correction request will be entertained"]
+        },
+        {
+            "tag": "query363",
+            "patterns": ["Where I can check the result of CCC Examination"],
+            "responses": ["The result will be declared on the NIELIT website http://student.nielit.gov.in."]
+        },
+        {
+            "tag": "query364",
+            "patterns": ["When the result will be declared after the examination"],
+            "responses": ["Under normal circumstances, the result will be declared after 15 days from the completion of examination cycle"]
+        },
+        {
+            "tag": "query365",
+            "patterns": ["What do the different grades awarded to the candidates after examination, represent"],
+            "responses": ["The examination result is represented as grades. The legend of grades is:\nD: 50% \u2013 54%, C: 55% \u2013 64%, B: 65% \u2013 74%, A: 75% \u2013 84%, S: 85% and over, F : Fail (<50%)"]
+        },
+        {
+            "tag": "query366",
+            "patterns": ["If I get admission to O/A/B or C level of NIELIT after successfully completing CCC can I get any benefit of CCC"],
+            "responses": ["No."]
+        },
+        {
+            "tag": "query367",
+            "patterns": ["If I pass the CCC examination, who will issue the CCC certificate"],
+            "responses": ["The CCC certificates to the successful candidates will be issued by the NIELIT"]
+        },
+        {
+            "tag": "query368",
+            "patterns": ["If I pass the CCC examination, can I have to collect my CCC certificate from NIELIT or it will be dispatched to me"],
+            "responses": ["With effect from November 2014, digitally signed e-certificates are being issued to the candidates who pass the CCC examination conducted by NIELIT. The digitally signed e-certificates can be downloaded by the successful candidates from the website of NIELIT http://nielit.gov.in/certificate/. Successful candidates can save the pdf file of e-certificate of CCC for future use"]
+        },
+        {
+            "tag": "query369",
+            "patterns": ["What can I do, in case of mistake found in my certificate"],
+            "responses": ["No correction request will be entertained by NIELIT for online examination application form submission, implemented with effect from 5-Sep-2013. The correction request will be entertained only for offline form filled by the candidates prior to launch of online portal(http://student.nielit.gov.in). The guidelines are given at http://www.nielit.gov.in/sites/default/files/headquarter/Notification_for_Reissuance.pdf"]
+        },
+        {
+            "tag": "query370",
+            "patterns": [" What is the process of reissuance in this case"],
+            "responses": ["No correction request will be entertained by NIELIT for online examination application form submission, implemented with effect from 5-Sep-2013. The correction request will be entertained only for offline form filled by the candidates prior to launch of online portal(http://student.nielit.gov.in). The guidelines are given at http://www.nielit.gov.in/sites/default/files/headquarter/Notification_for_Reissuance.pdf"]
+        },
+        {
+            "tag": "query371",
+            "patterns": ["What can I do, in case of lost/mutilated certificates? What is the process of reissuance in this case"],
+            "responses": ["A duplicate certificate is issued to those candidates whose certificate has been lost / mutilated. The guidelines are given at http://www.nielit.gov.in//sites/default/files/headquarter/Notification_for_Reissuance.pdf"]
+        },
+        {
+            "tag": "query372",
+            "patterns": ["I have downloaded my e-certificate, but the e\u2013certificate displays a question mark and signature are not verified message"],
+            "responses": ["This occurs when the digital certificate and digital signature associated with the PDF file have not yet been verified on your computer system. You need to verify the digital signatures on your computer system"]
+        },
+        {
+            "tag": "query373",
+            "patterns": ["How to validate digital signatures on the e-certificate"],
+            "responses": ["The steps to validate digital signatures are provided at the website of NIELIT http://www.nielit.gov.in/certificate/pdf/Steps_to_Verify_Digital_Certificate.pdf. After validation of digital signatures, the digital signature should now display a check mark"]
+        },
+        {
+            "tag": "query374",
+            "patterns": ["What is Basic Computer Course (BCC)"],
+            "responses": ["In step with effort to achieve the objective of achieving computer literacy in an inclusive manner, NIELIT has launched a new programme, \u201cBasic Computer Course (BCC)\u201d. The objective of the course is to impart basic level computer appreciation programme with more emphasis on hands on training. The Course is designed for VIIIth Standard pass students. Initially, the course was conceived as to boost the concept of introducing a course on computer fundamentals, especially for students, studying vocational courses at ITIs/ITCs. However, the course has gained popularity amongst many more categories. More details of the course are available at http://www.nielit.gov.in/student411bcc.htm . The BCC was launched in year 2011. The programme can equip a person to use the computers in day-to-day life for professional and personal use"]
+        },
+        {
+            "tag": "query375",
+            "patterns": ["What is the detailed syllabus of BCC"],
+            "responses": ["The detailed syllabus is available on NIELIT website i.e. www.nielit.gov.in"]
+        },
+        {
+            "tag": "query376",
+            "patterns": ["What is duration of BCC Course"],
+            "responses": ["Normally the BCC course duration is 36 hours (Theory: 10 hrs + Practical: 22 hrs. + Tutorial: 4 hrs.)"]
+        },
+        {
+            "tag": "query377",
+            "patterns": ["What are the eligibility criteria for BCC Course"],
+            "responses": ["The candidates can appear in the NIELIT BCC Examination either through NIELIT approved Institutes which are permitted to conduct BCC Course and having obtained E-Provisional no. / Registration no. or as Direct applicant irrespective of any educational qualifications"]
+        },
+        {
+            "tag": "query378",
+            "patterns": ["What is the minimum age required for applying for BCC Examination"],
+            "responses": ["Since this is a course on computer appreciation, there is no minimum or maximum age limit for applying for BCC Examination"]
+        },
+        {
+            "tag": "query379",
+            "patterns": ["How to apply in the BCC Examination"],
+            "responses": ["The candidates can apply for the BCC examination through online mode only. The candidate will have to apply online for the BCC examination through online facility of exam form and fee submission offered by NIELIT. The URL for the student online portal is http://student.nielit.gov.in"]
+        },
+        {
+            "tag": "query380",
+            "patterns": ["What is the fee of BCC Examination"],
+            "responses": ["The examination fee is Rs 450.00 + service tax (as applicable) only"]
+        },
+        {
+            "tag": "query381",
+            "patterns": ["Can I submit the examination form of BCC with late fee and what is the late fee"],
+            "responses": ["No."]
+        },
+        {
+            "tag": "query382",
+            "patterns": ["What is the schedule of BCC examination"],
+            "responses": ["Examination\tTime period for online filling of Examination form payment\tDate of Commencement of Examination\nFebruary                 Nov 01 - Dec 31                                                                                     1st Saturday of February\n\nMarch                    January 01-31                                                                                         1st Saturday of March\n\nApril                      February 01-28/29                                                                                  1st Saturday of April\n\nMay                      March 01-31                                                                                            1st Saturday of May\n\nJune                     April 01-30                                                                                               1st Saturday of June\n\nAugust                 May 01- June 30                                                                                      1st Saturday of August\n\nSeptember           July 01-31                                                                                                 1st Saturday of September\n\nOctober              August 01-31                                                                                            1st Saturday of October\n\nNovember          September 01-30                                                                                      1st Saturday of November\n\nDecember          October 01-31                                                                                           1st Saturday of December"]
+        },
+        {
+            "tag": "query383",
+            "patterns": ["What documents need to be submitting along with the examination form"],
+            "responses": ["W.e.f 1-February-2014, no documents are required to be submit at NIELIT Centre"]
+        },
+        {
+            "tag": "query384",
+            "patterns": ["What is mode of Examination fee to be pay in case of Online Examination form"],
+            "responses": ["The candidate/institute make the payment through the following modes : -\n            i) Online (Credit/ Debit card/ Netbanking)\n            ii) NEFT\n            iii) CSC-SPV"]
+        },
+        {
+            "tag": "query385",
+            "patterns": ["Where I can submit the examination form"],
+            "responses": ["W.e.f 1-Feb-2014, there is no need to submit any documents/certificates at NIELIT Centres"]
+        },
+        {
+            "tag": "query386",
+            "patterns": ["From where can I get the details of Regional Centre"],
+            "responses": ["The details of Regional Centre vis-\u00e0-vis state are available on the website of NIELIT http://www.nielit.gov.in/"]
+        },
+        {
+            "tag": "query387",
+            "patterns": ["How many papers are there in BCC examination"],
+            "responses": ["Only 1 paper."]
+        },
+        {
+            "tag": "query388",
+            "patterns": ["What are the minimum marks required to qualify BCC successfully"],
+            "responses": ["40% marks are the minimum marks required (with effect from July 2014)"]
+        },
+        {
+            "tag": "query389",
+            "patterns": ["What is the mode of examination"],
+            "responses": ["The examination is conducted in Online mode i.e. no pen/pencil/paper is required."]
+        },
+        {
+            "tag": "query390",
+            "patterns": ["How many questions to be attempt and what is the duration of examination"],
+            "responses": ["The examination of BCC comprise of 50 objective type questions of 1 mark each, and the candidate is required to attempt the 50 questions in 60 minutes. There is no negative marking"]
+        },
+        {
+            "tag": "query391",
+            "patterns": ["Where I can appear in the BCC Examination"],
+            "responses": ["Normally, the exam centres allotted to candidates is according to his/her centre choice (city) filled by the candidate. NIELIT have right to allot the other exam centre that has not filled by candidate"]
+        },
+        {
+            "tag": "query392",
+            "patterns": ["Can I submit more than 1 examination form in single exam cycle"],
+            "responses": ["No"]
+        },
+        {
+            "tag": "query393",
+            "patterns": ["Can I apply again for another BCC examination cycle, in case I failed to pass the BCC examination"],
+            "responses": ["Yes, you can apply again in other exam cycle. No, there is no limit yet"]
+        },
+        {
+            "tag": "query394",
+            "patterns": ["Is there any limit to apply for BCC examination"],
+            "responses": ["Yes, you can apply again in other exam cycle. No, there is no limit yet"]
+        },
+        {
+            "tag": "query395",
+            "patterns": ["Can I apply again for another BCC examination cycle, in case I passed the BCC examination"],
+            "responses": ["Yes, you can apply again in other exam cycle"]
+        },
+        {
+            "tag": "query396",
+            "patterns": ["How I can get the confirmation that my examination form has been processed"],
+            "responses": ["The Candidate can check the status at http://student.nielit.gov.in"]
+        },
+        {
+            "tag": "query397",
+            "patterns": ["From where do I get my Admit Card and what can I do, in case there is mistake in the admit card"],
+            "responses": ["The admit card can be downloaded from the student online portal http://student.nielit.gov.in . The admit card is according to details furnished by the candidates in OEAF. No correction request will be entertained"]
+        },
+        {
+            "tag": "query398",
+            "patterns": ["Where I can check the result of BCC Examination"],
+            "responses": ["The result will be declared on the NIELIT website http://student.nielit.gov.in"]
+        },
+        {
+            "tag": "query399",
+            "patterns": ["When the result will be declared after the examination"],
+            "responses": [" Under normal circumstances, the result will be declared after 15 days from the completion of examination cycle"]
+        },
+        {
+            "tag": "query400",
+            "patterns": ["What do the different grades awarded to the candidates after examination, represent"],
+            "responses": ["The examination result is represented as grades. The legend of grades with effect from July 2014 are:\nE: 40% \u2013 49%, D: 50% \u2013 54%, C: 55% \u2013 64%, B: 65% \u2013 74%, A: 75% \u2013 84%, S: 85% and over, F : Fail"]
+        },
+        {
+            "tag": "query401",
+            "patterns": ["If I get admission to O/A/B or C level of NIELIT after successfully completing BCC can I get any benefit of BCC"],
+            "responses": ["No"]
+        },
+        {
+            "tag": "query402",
+            "patterns": ["If I pass the BCC examination, who will issue the BCC certificate"],
+            "responses": ["The BCC certificates to the successful candidates will be issued by the NIELIT"]
+        },
+        {
+            "tag": "query403",
+            "patterns": ["If I pass the BCC examination, whether I have to collect my BCC certificate from NIELIT or it will be dispatched to me"],
+            "responses": ["With effect from July 2014, digitally signed e-certificates are being issued to the candidates who pass the BCC examination conducted by NIELIT. The digitally signed e-certificates can be downloaded by the successful candidates from the website of NIELIT http://nielit.gov.in/certificate. Successful candidates can save the pdf file of e-certificate of BCC for future use"]
+        },
+        {
+            "tag": "query404",
+            "patterns": ["What can I do, in case of mistake found in my certificate"],
+            "responses": ["No correction request will be entertained by NIELIT for online examination application form submission, implemented with effect from 5-Sep-2013"]
+        },
+        {
+            "tag": "query405",
+            "patterns": [" What is the process of reissuance in this case"],
+            "responses": ["The correction request will be entertained only for offline form filled by the candidates prior to launch of online portal(http://student.nielit.gov.in) the guidelines are given at http://www.nielit.gov.in/pdf/ccc/Notification_for_Reissuance.pdf "]
+        },
+        {
+            "tag": "query406",
+            "patterns": ["What can I do, in case of lost/mutilated certificates"],
+            "responses": ["A duplicate certificate is issued to those candidates whose certificate has been lost / mutilated"]
+        },
+        {
+            "tag": "query407",
+            "patterns": ["What is the process of reissuance in this case"],
+            "responses": ["The guidelines are given at http://www.nielit.gov.in/pdf/ccc/Notification_for_Reissuance.pdf"]
+        },
+        {
+            "tag": "query408",
+            "patterns": ["I have downloaded my e-certificate, but the e\u2013certificate displays a question mark and signature are not verified message"],
+            "responses": ["This occurs when the digital certificate and digital signature associated with the PDF file have not yet been verified on your computer system. You need to verify the digital signatures on your computer system"]
+        },
+        {
+            "tag": "query409",
+            "patterns": ["How to validate digital signatures on the e-certificate"],
+            "responses": ["The steps to validate digital signatures are provided at the website of NIELIT http://www.nielit.gov.in/certificate/pdf/Steps_to_Verify_Digital_Certificate.pdf. After validation of digital signatures, the digital signature should now display a check mark"]
+        },
+        {
+            "tag": "query410",
+            "patterns": ["What is the fee of Registration and Examination?"],
+            "responses": ["Total Registration and Examination fee is Rs. 503 /- ( Fee of Rs.437/- plus service tax )"]
+        },
+        {
+            "tag": "query411",
+            "patterns": ["What is the schedule of POS examination?"],
+            "responses": ["Examination Time period for online filling of Registration form & e-content fee payment    Time period for online filling of Examination form & examination fee payment  Date of Commencement of Examination\nJanuary                25-November- 15 December                                                                           25-November -20 December                                                                                  1st Saturday of January\nFebruary              25 December \u2013 15 January                                                                              25 December \u2013 20 January                                                                                      1st Saturday of February\nMarch                  25 January \u2013 15 February                                                                                25 January \u2013 20 February                                                                                         1st Saturday of March\nApril                    25 February - 15 March                                                                                   25 February -20 March                                                                                             1st Saturday of April\nMay                     25 March \u2013 15 April                                                                                         25 March \u2013 20 April                                                                                                  1st Saturday of May\nJune                    25 April - 15 May                                                                                             25 April -20 May                                                                                                        1st Saturday of June\nJuly                     25 May - 15 June                                                                                             25 May -20 June                                                                                                        1st Saturday of July\nAugust                25 June -15July                                                                                                 25 June-20 July                                                                                                         1st Saturday of August\nSeptember          25 July -15 August                                                                                          25 July-20 August                                                                                                       1st Saturday of September\nOctober              25 August - 15 September                                                                               25 August- 20 September                                                                                           1st Saturday of October\nNovember           25 September -15 October                                                                              25 Sept- 20 October                                                                                                    1st Saturday of November\nDecember           25 October- 15 November                                                                               25 October \u2013 20 November                                                                                         1st Saturday of December"]
+        },
+        {
+            "tag": "query412",
+            "patterns": ["What documents need to be submitting along with the examination form"],
+            "responses": [" no documents are required to be submit at NIELIT Centre."]
+        },
+        {
+            "tag": "query413",
+            "patterns": ["What is mode of examination fee to be paid in case of Online Examination form?"],
+            "responses": ["The candidate/institute make the payment through the following modes : -\ni) Online (Credit/ Debit card/ Netbanking)\nii) NEFT\niii) CSC-SPV"]
+        },
+        {
+            "tag": "query414",
+            "patterns": ["From where can I get the details of Regional Centre?"],
+            "responses": ["The details of Regional Centre vis-\u00e0-vis state are available on the website of NIELIT\nhttp://www.nielit.gov.in/student411ccc.htm."]
+        },
+        {
+            "tag": "query415",
+            "patterns": ["How many papers are there in POS examination?"],
+            "responses": ["Only 1 paper."]
+        },
+        {
+            "tag": "query416",
+            "patterns": ["What are the minimum marks required to qualify POS examination successfully?"],
+            "responses": ["35 marks out of 100 are the minimum marks required to pass this exam."]
+        },
+        {
+            "tag": "query417",
+            "patterns": ["What is the mode of examination?"],
+            "responses": ["The examination is conducted in Online mode i.e. no pen/pencil/paper is required."]
+        },
+        {
+            "tag": "query418",
+            "patterns": ["How many questions to be attempt and what is the duration of examination?"],
+            "responses": ["The Question Paper comprises of 100 objective type questions of 1 mark each, and the candidate is\nrequired to attempt the 100 questions in 90 minutes. There is no negative marking."]
+        },
+        {
+            "tag": "query419",
+            "patterns": ["Where I can appear in the POS Examination?"],
+            "responses": ["Normally, the examination centres allotted to candidates is according to his/her centre choice (city)\nfilled by the candidate in his/her examination form. However, depending upon the number of candidates at a\nparticular centre / location, NIELIT reserves the right to allot any other examination centre that has not been\nfilled by candidate. (Candidate can select Exam locations while filling up the examination form). There are\nfour batches in a day, NIELIT Regional centres can allocate any batch time starting from 9 am to 3 pm in a\nday."]
+        },
+        {
+            "tag": "query420",
+            "patterns": ["Can I submit more than 1 examination form in single examination cycle?"],
+            "responses": ["No"]
+        },
+        {
+            "tag": "query421",
+            "patterns": ["Can I apply again for another POS examination cycle, in case I failed to pass the examination\n?"],
+            "responses": ["Yes, you can apply again in other exam cycle till the validity of registration exists by paying a fees of\nRs. 361/- per candidate per exam (Reappear fee of Rs.314/- plus service tax) ."]
+        },
+        {
+            "tag": "query422",
+            "patterns": ["Is there any limit to apply for POS examination?"],
+            "responses": ["The candidates who failed to\npass the examination within a period of six months after completion of training, shall be required to reregister\nfor the training by paying Rs.503/- (Fee of Rs. 437/- plus applicable taxes.)"]
+        },
+        {
+            "tag": "query423",
+            "patterns": ["What is the syllabus of IRDA POS and how to access the syllabus?"],
+            "responses": ["Syllabus of IRDA POS is available in e-learning mode at nielit.gov.in/irda and candidate will be able to\naccess the e-content only after successful registration . A link will be sent to all registered candidates for\naccessing the e-learning material."]
+        },
+        {
+            "tag": "query424",
+            "patterns": ["What is duration of training?"],
+            "responses": ["Registration of a candidate is valid for 6 months and during this period , he /she needs to complete the\ntraining and clear the examination as well. (It depends on the candidate whether he can complete the\ntraining in one day or I month.)"]
+        },
+        {
+            "tag": "query425",
+            "patterns": ["How I can get the confirmation that my examination form for POS has been processed?"],
+            "responses": ["The Candidate can check the status at http://student.nielit.gov.in"]
+        },
+        {
+            "tag": "query426",
+            "patterns": ["From where do I get my Admit Card and what can I do, in case there is mistake in the admit\ncard?"],
+            "responses": ["The admit card can be downloaded from the student online portal (http://student.nielit.gov.in).\nThe admit card is according to details furnished by the candidates in OEAF. No correction request will be\nentertained."]
+        },
+        {
+            "tag": "query427",
+            "patterns": ["Where I can check the result of POS examination?"],
+            "responses": ["The result will be declared on the student online portal of NIELIT http://student.nielit.gov.in"]
+        },
+        {
+            "tag": "query428",
+            "patterns": ["When the result will be declared after the examination?"],
+            "responses": ["Under normal circumstances, the result will be declared after 15 days from the completion of\nexamination cycle."]
+        },
+        {
+            "tag": "query429",
+            "patterns": ["If I pass the POS examination, who will issue the certificate?"],
+            "responses": ["The POS certificates to the successful candidates will be issued by the NIELIT."]
+        },
+        {
+            "tag": "query430",
+            "patterns": ["If I pass the examination, can I have to collect my certificate from NIELIT or it will be\ndispatched to me?"],
+            "responses": ["Digitally signed e-certificates are being issued to the candidates who pass the POS examination\nconducted by NIELIT. The digitally signed e-certificates can be downloaded by the successful candidates\nfrom the website of NIELIT (http://nielit.gov.in/certificate/). Successful candidates can save the pdf\nfile of e-certificate for future use."]
+        },
+        {
+            "tag": "query431",
+            "patterns": ["What is the timing of classes"],
+            "responses": ["From 10:30 to 4:00"]
+        },
+        {
+            "tag": "query432",
+            "patterns": ["How is the campus discipline"],
+            "responses": ["There are some rules and regulation, you have to follow but obey is necessary"]
+        },
+        {
+            "tag": "query433",
+            "patterns": ["How do we find NIELIT"],
+            "responses": ["Visit to this website for further information. Link : https://nielit.gov.in/guwahati/"]
+        },
+        {
+            "tag": "query434",
+            "patterns": ["What are the dress code for boys and girls"],
+            "responses": ["Civil but prefer to be in formal dress."]
+        },
+        {
+            "tag": "query435",
+            "patterns": ["Are college uniforms mendetory for the master student"],
+            "responses": ["Nope"]
+        },
+        {
+            "tag": "query436",
+            "patterns": ["How many canteens are there in the college"],
+            "responses": ["Only one canteen"]
+        },
+        {
+            "tag": "query437",
+            "patterns": ["Is the college affiliated to the Guwahati University"],
+            "responses": ["Yes, it is"]
+        },
+        {
+            "tag": "query438",
+            "patterns": ["What is the Duration of M. Tech Course"],
+            "responses": ["2 years"]
+        },
+        {
+            "tag": "query439",
+            "patterns": ["What is O/A/B & C level course"],
+            "responses": ["In the Non-Formal Sector, NIELIT is offering 'O' Level (equivalent to Foundation Level), 'A' Level (equivalent to Advance Diploma), 'B' Level (equivalent to MCA) and 'C' Level (designed to be at M.Tech Level) courses. O,A, & B level courses are recognized by MHRD for the purpose of employment."]
+        },
+        {
+            "tag": "query440",
+            "patterns": ["Where can I get information about O/A/B & C Level courses"],
+            "responses": ["From the web site https://nielit.gov.in/content/computer-course-0"]
+        },
+        {
+            "tag": "query441",
+            "patterns": ["How can I get syllabus of O/A/B and C Level course"],
+            "responses": ["https://nielit.gov.in/content/syllabus"]
+        },
+        {
+            "tag": "query442",
+            "patterns": ["What is the schedule of the examination"],
+            "responses": ["NIELIT O/A/B, and C Level Theory examination are conducted every six months starting from the 2nd Saturday of January and July; Practical exam are conducted starting from the 2th Saturday of February and August"]
+        },
+        {
+            "tag": "query443",
+            "patterns": ["How many papers can I apply in a single attept "],
+            "responses": ["There is no specific number as such. However, in each level you need to complete the pappers in the stipulated period"]
+        },
+        {
+            "tag": "query444",
+            "patterns": ["What is the minimum mark required to qualify the modules of O/A/B & C level Examination"],
+            "responses": ["To qualify a minimum of 50% mark is required in each module."]
+        },
+        {
+            "tag": "query445",
+            "patterns": ["Where will I be appearing for the theory examinations"],
+            "responses": ["NIELIT Examination Cenetr are spread all over the country. The list of the examination centers are available once you appy exam from online"]
+        },
+        {
+            "tag": "query446",
+            "patterns": ["How do I fill Online Exam Application Form"],
+            "responses": ["The facility of filling up of the Online Examination Application Form along with detailed steps is available at https://nielit.gov.in/content/examination"]
+        },
+        {
+            "tag": "query447",
+            "patterns": ["Is it compulsory to fill Online Examination Application Form"],
+            "responses": ["Yes, You have to fill the online Examination Application Form."]
+        },
+        {
+            "tag": "query448",
+            "patterns": ["Do I need to create a User Account/ Login ID for filling-up of the Online Examination Application Form"],
+            "responses": ["Yes, it is mandatory to have a user account/Login ID. The same ID will also enable you to get important information like Admit Card, Result Sheet etc from NIELIT"]
+        },
+        {
+            "tag": "query449",
+            "patterns": ["Is there any provision for physical Examination Application Form"],
+            "responses": ["There is no provision for offline form, physical Examination Application Form has been discontinued from the July- 2013 onwards."]
+        },
+        {
+            "tag": "query450",
+            "patterns": ["I logged into my account and fill all the information which was lost due to power problem. Will the information available again"],
+            "responses": ["No, You have to login again and fill the online Examinatio Application forms form the afresh"]
+        },
+        {
+            "tag": "query451",
+            "patterns": ["Can I use my Institution's email ID"],
+            "responses": ["No, you should have your individual students email ID as all vital information relevent to you is communicated to you through your email"]
+        },
+        {
+            "tag": "query452",
+            "patterns": ["Can I change my email ID/ Mobile Number"],
+            "responses": ["You can change / Update the email Id/Mobile number through your log in at \"student.nielit.gov.in\""]
+        },
+        {
+            "tag": "query453",
+            "patterns": ["I have been registered through an Accredited Institution. Can I submit the Examination form directly"],
+            "responses": ["No, Candidate, who have already undergone training and applied in all pa[ers through institute, can apply the back papers directly"]
+        },
+        {
+            "tag": "query454",
+            "patterns": ["What can I do in case the institute is closed or accreditation withdrawn"],
+            "responses": ["The institutes suppose to submit the list of candiadtes once withdrawn or closed. In such cases your name should be in such a list provided by the institute and subsequently allow you to sit in the examinations."]
+        },
+        {
+            "tag": "query455",
+            "patterns": ["I cannot see where my details are like how many papers passed etc. and where I will get the list of my papers I need to apply"],
+            "responses": ["While applying online examination application form your data will be shown about your cleared papers and left out papers. In case of any discrepancy in the data, please send an email to exam@nielit.gov.in for alarification."]
+        },
+        {
+            "tag": "query456",
+            "patterns": ["What are the exam fees for O/A/B and C Level Theory and Practical exam"],
+            "responses": ["The Examination fee is Rs. 500/-per module/paper for theory and Rs.300/- for Practical exam"]
+        },
+        {
+            "tag": "query457",
+            "patterns": ["Is there any cost for Online Examination Application Form"],
+            "responses": ["There is no fee for Online Examination Application form . However, an amount of Rs. 100/- per Examination Form will be charged from the candidate as processing fees and will be collected along with the fee for Theory/Practical Module and late fees(if any)"]
+        },
+        {
+            "tag": "query458",
+            "patterns": ["How can I pay Exam fees online"],
+            "responses": ["Once you fill the examination form, system will direct you to Payment option. You can pay fees by selecting suitable options through internate banking with your debit/credit card and net banking etc."]
+        },
+        {
+            "tag": "query459",
+            "patterns": ["Can I use Internet banking"],
+            "responses": ["Yes, You can pay fees by selecting suitable options through internate banking with your debit/credit card and net banking etc."]
+        },
+        {
+            "tag": "query460",
+            "patterns": ["I don\u2019t have credit/debit cards. How can I make the payment"],
+            "responses": ["You can pay the fees through  NEFT transaction or approach the Common Service Center(CSC) who can make payment on behalf of you. You can locate the nearest CSC center at www.csc.gov.in."]
+        },
+        {
+            "tag": "query461",
+            "patterns": ["Can I make payment of exam fees by DD along with online Forms"],
+            "responses": ["No, you have to make online payment by using credit/debit cards/net banking/ CSC Services only."]
+        },
+        {
+            "tag": "query462",
+            "patterns": ["I have been registered through an Accredited Institution. Can I pay my exam fee myself/directly"],
+            "responses": ["Yes, you can pay the fees yourself by selecting the appropriate options. But make sure your Institute verify the form and submit to NIELIT sucessfully"]
+        },
+        {
+            "tag": "query463",
+            "patterns": ["What is the last date of Exam Form Filling"],
+            "responses": ["Please visit to \"student.nielit.gov.in\" for information. However, usually the last date for January exam will be 31st October and for July exam 30th April"]
+        },
+        {
+            "tag": "query464",
+            "patterns": ["How much extra do I need to pay to Institution"],
+            "responses": ["NIELIT is charging examination, practical and processing fees"]
+        },
+        {
+            "tag": "query465",
+            "patterns": ["Do we need to send the printed copy of online examination application form"],
+            "responses": ["No need not to send the online examination application form"]
+        },
+        {
+            "tag": "query466",
+            "patterns": ["WHAT GRADE ARE AWARDED AND WHAT ARE THE CORRESPONDING MARKS"],
+            "responses": ["The examination result is represented as grades. The legend of grades is : D: 50%-54%, C: 55%-64%, B: 65%-74%, A: 75%-84% and over, F: Fail"]
+        },
+        {
+            "tag": "query467",
+            "patterns": ["How can I get Admit card"],
+            "responses": ["Informaton will be available at \"student.nielit.gov.in\" two weeks before examination. Also, you can down load it from NIELIT web site"]
+        },
+        {
+            "tag": "query468",
+            "patterns": ["How do I get the result of my O/A/B and C Level Exam"],
+            "responses": ["https://nielit.gov.in/content/results-0"]
+        },
+        {
+            "tag": "query469",
+            "patterns": ["What is the procedure for applying for a Consolidated Mark sheet/Provisional Certificate"],
+            "responses": ["Your results are available in your profile. You may view/take print out of your performance details from the system itself. Or send a request to certificate@nielit.gov.in for the same with your complete correspondence and please mention your correct registration number"]
+        },
+        {
+            "tag": "query470",
+            "patterns": ["Contact Details by Post/Courier"],
+            "responses": ["Controller of Exam NIELIT, Electronic Niketan, 6 CGO Complex Lodhi Road, New Delhi 110003"]
+        },
+        {
+            "tag": "query471",
+            "patterns": ["Contact Details by Phone"],
+            "responses": ["011-24363184, 24365586, 24364335/ 011-24363330-1-2(Ext: 112, 114, 115, 119,120,129,130)"]
+        },
+        {
+            "tag": "query472",
+            "patterns": ["Contact By Email"],
+            "responses": ["For Theory(exam@nielit.gov.in), For Practical Modules(preexam@nielit.gov.in)"]
+        },
+        {
+            "tag": "query473",
+            "patterns": ["How do I fill Online Exam Application Form"],
+            "responses": ["https://nielit.gov.in/content/examination"]
+        },
+        {
+            "tag": "query474",
+            "patterns": ["What are the opportunities as a student in NIELIT"],
+            "responses": ["https://nielit.gov.in/opportunities"]
+        },
+        {
+            "tag": "query475",
+            "patterns": ["Recruitments"],
+            "responses": ["https://nielit.gov.in/recruitments"]
+        },
+        {
+            "tag": "query476",
+            "patterns": ["Digital Literacy Courses details"],
+            "responses": ["https://nielit.gov.in/content/ccc-and-bcc-0"]
+        },
+        {
+            "tag": "query477",
+            "patterns": ["Accreditation O,A,B,C Levels"],
+            "responses": ["https://nielit.gov.in/content/accreditation-o-b-c-levels"]
+        },
+        {
+            "tag": "query478",
+            "patterns": ["Fee Charter for NIELIT \u2018O\u2019,\u2019A\u2019,\u2019B\u2019,\u2019C\u2019 Levels (w.e.f. 01st April' 2019)"],
+            "responses": ["https://nielit.gov.in/content/o-b-c-levels"]
+        },
+        {
+            "tag": "query479",
+            "patterns": ["Academic News"],
+            "responses": ["https://nielit.gov.in/academic_news_1"]
+        },
+        {
+            "tag": "query480",
+            "patterns": ["COVID Compliance provided by NIELIT"],
+            "responses": ["https://nielit.gov.in/guwahati//calicut/content/covid-compliance"]
+        },
+        {
+            "tag": "query481",
+            "patterns": ["Winter Training on Robotics"],
+            "responses": ["https://nielit.gov.in/guwahati/content/winter-training-robotics"]
+        },
+        {
+            "tag": "query482",
+            "patterns": ["STTP on Bioinformatics"],
+            "responses": ["https://nielit.gov.in/guwahati/content/sttp-bioinformatics"]
+        },
+        {
+            "tag": "query483",
+            "patterns": ["Admission Notice August/September 2020"],
+            "responses": ["https://nielit.gov.in/guwahati/guwahati/node/15541"]
+        },
+        {
+            "tag": "query484",
+            "patterns": ["Online Courses"],
+            "responses": ["https://nielit.gov.in/guwahati/guwahati/content/online-courses-0"]
+        },
+        {
+            "tag": "query485",
+            "patterns": ["NSQF Courses"],
+            "responses": ["NSQF is a nationally integrated education and competency-based framework that enables persons to acquire desired competency levels. Link https://nielit.gov.in/content/nsqf"]
+        },
+        {
+            "tag": "query486",
+            "patterns": ["Infrastructure of NIELIT, Guwahati"],
+            "responses": ["https://nielit.gov.in/guwahati/content/infrastructure-3"]
+        },
+        {
+            "tag": "query487",
+            "patterns": ["What types of documents are needed for the admission of Mtech,BCA/MCA/MSC CS"],
+            "responses": ["Passport Size Photograph.\nStandard 10th passing certificate & Mark-sheet.\nStandard 12th passing certificate & Mark-sheet.\nFinal Semester Mark-sheet.\nQualifying Degree.\nGATE score card (if applicable).\nCaste Certificate (if applicable)."]
+        },
+        {
+            "tag": "query488",
+            "patterns": ["Is Migration certificate important in the time of Admission"],
+            "responses": ["Yes, it is mandatory to provide Migration certificate"]
+        },
+        {
+            "tag": "query489",
+            "patterns": ["Is 12 certificate important in the time of admission"],
+            "responses": ["Yes, it is mandatory to provide 12nd certificate"]
+        },
+        {
+            "tag": "query490",
+            "patterns": ["Why is it taking Original Migration Certificate"],
+            "responses": ["Migration Certificate is a document issued by the concerned University or Board in which one studies. It helps in getting admission to another institution or any education board and it is issued at the completion of the course along with other necessary documents"]
+        },
+        {
+            "tag": "query491",
+            "patterns": ["What is the Minimum mark to be obtain, for taking admission of various courses"],
+            "responses": [""]
+        },
+        {
+            "tag": "query492",
+            "patterns": ["What are the online Services provided by NIELIT"],
+            "responses": ["Registration, Examination, Accreditation, CCC/BCC Facilitation, Quick SMS, Recruitments"]
+        },
+        {
+            "tag": "query493",
+            "patterns": ["Is Commerce Course available"],
+            "responses": ["No"]
+        },
+        {
+            "tag": "query494",
+            "patterns": ["B.Com, M.Com Staff Information"],
+            "responses": ["https://www.nielit.gov.in/kolkata/kolkata/tezpur/gorakhpur/content/staff-profile"]
+        },
+        {
+            "tag": "query495",
+            "patterns": ["How can I do payment of the fees online"],
+            "responses": ["https://www.onlinesbi.com/sbicollect/icollecthome.htm?corpID=919482"]
+        },
+        {
+            "tag": "query496",
+            "patterns": ["Can I do payment in the form of Cheque"],
+            "responses": ["no, Online or Bank chalan"]
+        },
+        {
+            "tag": "query497",
+            "patterns": ["Do NIELIT takes students from Outside of Assam"],
+            "responses": ["Yes"]
+        },
+        {
+            "tag": "query498",
+            "patterns": ["Is there any Relaxation for Handicap people"],
+            "responses": ["Not yet"]
+        },
+        {
+            "tag": "query499",
+            "patterns": ["If there is Relaxation for Handicap people what will be criteria and what are the certificates required"],
+            "responses": ["Not yet"]
+        },
+        {
+            "tag": "query500",
+            "patterns": ["Is NIELIT an Institute of Co-education"],
+            "responses": ["Yes"]
+        },
+        {
+            "tag": "query501",
+            "patterns": ["Is NIELIT provide CO-CURRICULLAR Activities"],
+            "responses": ["Yes"]
+        },
+        {
+            "tag": "query502",
+            "patterns": ["Mention some types of CO-CURRICULLAR Activities NIELIT Provide"],
+            "responses": ["Cricket, Football"]
+        },
+        {
+            "tag": "query503",
+            "patterns": ["Where is the Headquarters of National Institute of Electronics & Information Technology "],
+            "responses": ["The Headquarter of NIELIT is in New Delhi"]
+        },
+        {
+            "tag": "query504",
+            "patterns": ["Where are NIELIT"],
+            "responses": ["At present, NIELIT has thirty six (36) offices located at Agartala, Aizawl, Ajmer, Aurangabad, Calicut, Chandigarh, Chennai, Chuchuyimlang, Churachandpur, Delhi, Gangtok, Gorakhpur, Guwahati, Imphal, Itanagar, Jammu, Jorhat, Kohima, Kolkata, Kokrajhar, Kurukshetra, Leh, Lucknow, Lunglei, Pasighat, Patna, Ranchi."]
+        },
+        {
+            "tag": "query505",
+            "patterns": ["Is O Level a diploma"],
+            "responses": ["O Level. DOEACC 'O' Level Course is a foundation Course of DOEACC Society in the field of Information Technology. The duration of the course is 1 Year (2 semesters of 6 months each). The next level IT course of DOEACC Society is DOEACC 'A'Level which is equivalent to advance diploma course in Computer Application."]
+        },
+        {
+            "tag": "query506",
+            "patterns": ["Which is better CCC and O Level"],
+            "responses": ["CCC is just a certificate course to understand the very basics of computing. Moreover, O-level is equivalent to Diploma in Computer Science & Engineering (Polytechnic Diploma of 3 years). Obviously, it is not that easy but it is worthy to pursue it. C-Programming is the major part of it."]
+        },
+        {
+            "tag": "query507",
+            "patterns": ["Is O Level equivalent to BCA"],
+            "responses": ["O' level course of DOEACC Scheme is equivalent to a Foundation Level Course in Computer Applications. Even 'A' level course is not equivalent to BCA. 'O' level course of DOEACC Scheme is equivalent to a Foundation Level Course in Computer Applications."]
+        },
+        {
+            "tag": "query508",
+            "patterns": ["Is MCA equivalent to Btech"],
+            "responses": ["MCA is generally assumed equivalent to B. Tech in IT and CSE field as course structure is same but B. tech provides more scope and generally B. ... Tech is a better course as it is technical course but both the courses has its own importance and depends upon the candidate interest."]
+        },
+        {
+            "tag": "query509",
+            "patterns": ["Is BCA equivalent to BSc?"],
+            "responses": ["A BSc Computer Science graduate can take up this course, but not by a BCA graduate. BCA is a professional degree, and those who hold it cannot pursue an MSc degree for higher studies"]
+        },
+        {
+            "tag": "query510",
+            "patterns": ["Is MCA equivalent to MSc"],
+            "responses": ["MCA is better then MSc, because MCA treated as a technical degree and MSc is science degree. ... An MCA is better than MSC IT, MCA is more preferred option as bigger companies would prefer a candidate who has done MCA to MSc (IT). Most of the software jobs are open to you after an MCA"]
+        },
+        {
+            "tag": "query511",
+            "patterns": ["Is MCA an engineer"],
+            "responses": ["No, MCA is not an Engineering degree. It's a Post-graduation degree. You can do MCA after completion of a BCA degree. MCA is similar to Btech Computer Science Engineering."]
+        },
+        {
+            "tag": "query512",
+            "patterns": ["Is MCA a 2 year course"],
+            "responses": ["Master of Computer Application (MCA) has been restructured to be a two-year postgraduate course instead of the existing three-year postgraduate degree course. Until now, students who had passed a bachelor's degree in any stream were eligible to apply for the MCA course."]
+        },
+        {
+            "tag": "query513",
+            "patterns": ["Is MCA a good career option?"],
+            "responses": ["Best Career Options after MCA - Master of Computer Application (MCA) is a job-oriented course that helps students pursue a career in IT (Information Technology) or equivalent field. ... Therefore, MCA can be one of the best career options for the aspirants who are looking for jobs in the IT sector"]
+        },
+        {
+            "tag": "query514",
+            "patterns": ["How many Lab Rooms are there in Nielit GUWAHATI"],
+            "responses": ["4 Lab rooms, Class room cum Lab: 03 (Three) Class room cum Labs with a seating capacity of 60 (20 each) nos of students. All the computers are connected with a High Speed Internet connection and Hardware Lab Cum Class Room: 01(One) of 20 seating capacity."]
+        },
+        {
+            "tag": "query515",
+            "patterns": ["What are the working days for NIELIT ina week"],
+            "responses": ["The Institution follows five working days in a week from Monday to Friday. In addition, it follows a schedule of holiday as per the rules of the Government of India."]
+        },
+        {
+            "tag": "query516",
+            "patterns": ["How many applications are filled for nielit 2021"],
+            "responses": ["4657 students for NIELIT 2021"]
+        },
+        {
+            "tag": "query517",
+            "patterns": ["How is the teaching style of the college"],
+            "responses": ["Very nice and appropriate."]
+        },
+        {
+            "tag": "query518",
+            "patterns": ["Which of the course (btech, bcom, bca) is better in your college"],
+            "responses": ["B.Tech and BCA. Registration link https://student.nielit.gov.in/"]
+        },
+        {
+            "tag": "query519",
+            "patterns": ["What is the average salary package on campus placement"],
+            "responses": ["Technical Assistant(Rs. 18,000/- (Consolidated)), Project Associate(Rs. 22,000/- (Consolidated))"]
+        },
+        {
+            "tag": "query520",
+            "patterns": ["What graduate courses  are most preferred"],
+            "responses": ["B.Tech and BCA. Registration link https://student.nielit.gov.in/"]
+        },
+        {
+            "tag": "query521",
+            "patterns": ["What is the scope of research in the University"],
+            "responses": ["Please visit to https://nielit.gov.in/guwahati/content/capacity-building-sponsored-projects"]
+        },
+        {
+            "tag": "query522",
+            "patterns": ["What is the number of teaching assistants per batch"],
+            "responses": ["For every subject we are assigned teaching assistants per batch"]
+        },
+        {
+            "tag": "query523",
+            "patterns": ["How is the student internship program in the University"],
+            "responses": ["We are providing internship program, Rs 5999 for 6(months)"]
+        },
+        {
+            "tag": "query524",
+            "patterns": ["Hi","How are you","Is anyone there?","Hello","Good day"],
+            "responses": ["Hello, thanks for visiting","Good to see you again","Hi there, how can I help you?"]
+        },
+        {
+            "tag": "query525",
+            "patterns": ["Bye","See you later","Goodbye"],
+            "responses": ["See you later","thanks for visiting","Have a nice day","Bye! Come back again soon"]
+        },
+        {
+            "tag": "query526",
+            "patterns": ["Thanks","Thank you","That's helpful"],
+            "responses": ["Happy to help you","Any time!","My pleasure"]
+        },
+        {
+            "tag": "query527",
+            "patterns": ["What hours are you open?","What are your hours?","When are you open?"],
+            "responses": ["We're open every day 9am-9pm","Our hours are 9am-9pm every day"]
+        },
+        {
+            "tag": "query528",
+            "patterns": ["What is your location?","Where are you located?","What is your Address?"],
+            "responses": ["We are on Guwahati","Our Address are ,Guwahati, Khanapara, Tezpur, Jorhat, Majuli, Kokrajhar, Silchar and Dibrugarhr Extension Centre "]
+        }
+  ]
+}
